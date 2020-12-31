@@ -1,0 +1,129 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 102,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -5.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 5.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 104,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        17,
+        0
+      ]
+    },
+    {
+      "id": 103,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-Manual",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "triggerOnLoad": false,
+        "shouldTriggerOnLoad": true
+      },
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 104,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 102,
+      "text": "RED:\n- Audio connections\n\nBLUE:\n- Clocks\n- Triggers\n- Gates\n\nYELLOW:\n- Voltage \n\nGREEN:\n- Modulation\n",
+      "pos": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": 105,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "TriggersMKIII",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "label1": "",
+        "label2": ""
+      },
+      "pos": [
+        0,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 138,
+      "outputModuleId": 103,
+      "outputId": 7,
+      "inputModuleId": 102,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 139,
+      "outputModuleId": 105,
+      "outputId": 1,
+      "inputModuleId": 102,
+      "inputId": 1,
+      "color": "#0986ad"
+    }
+  ]
+}

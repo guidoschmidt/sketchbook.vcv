@@ -1,0 +1,289 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 106,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 107,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        27,
+        0
+      ]
+    },
+    {
+      "id": 107,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.163500056
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.228499934
+        },
+        {
+          "id": 3,
+          "value": 0.590499938
+        }
+      ],
+      "leftModuleId": 108,
+      "rightModuleId": 106,
+      "pos": [
+        19,
+        0
+      ]
+    },
+    {
+      "id": 108,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-Manual",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 110,
+      "rightModuleId": 107,
+      "data": {
+        "triggerOnLoad": false,
+        "shouldTriggerOnLoad": true
+      },
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 109,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "LFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -1.64599931
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 112,
+      "pos": [
+        9,
+        1
+      ]
+    },
+    {
+      "id": 110,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 108,
+      "text": "# ADSR\n\n1. Attack\n2. Decay\n3. Sustain\n4. Release",
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 111,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 112,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        27,
+        1
+      ]
+    },
+    {
+      "id": 112,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.288000345
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.228499934
+        },
+        {
+          "id": 3,
+          "value": 0.43299976
+        }
+      ],
+      "leftModuleId": 109,
+      "rightModuleId": 111,
+      "pos": [
+        19,
+        1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 152,
+      "outputModuleId": 107,
+      "outputId": 0,
+      "inputModuleId": 106,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 155,
+      "outputModuleId": 108,
+      "outputId": 7,
+      "inputModuleId": 106,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 154,
+      "outputModuleId": 109,
+      "outputId": 3,
+      "inputModuleId": 111,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 157,
+      "outputModuleId": 112,
+      "outputId": 0,
+      "inputModuleId": 111,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 158,
+      "outputModuleId": 109,
+      "outputId": 3,
+      "inputModuleId": 112,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 159,
+      "outputModuleId": 108,
+      "outputId": 7,
+      "inputModuleId": 107,
+      "inputId": 4,
+      "color": "#0986ad"
+    }
+  ]
+}

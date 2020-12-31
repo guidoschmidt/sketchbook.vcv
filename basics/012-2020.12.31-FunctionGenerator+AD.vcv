@@ -1,0 +1,359 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 113,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 114,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        9,
+        0
+      ]
+    },
+    {
+      "id": 114,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-AD",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.420421064
+        },
+        {
+          "id": 1,
+          "value": 0.220229954
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 115,
+      "rightModuleId": 113,
+      "data": {
+        "invert": 1.0
+      },
+      "pos": [
+        6,
+        0
+      ]
+    },
+    {
+      "id": 115,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-Manual",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 116,
+      "rightModuleId": 114,
+      "data": {
+        "triggerOnLoad": false,
+        "shouldTriggerOnLoad": true
+      },
+      "pos": [
+        3,
+        0
+      ]
+    },
+    {
+      "id": 116,
+      "plugin": "Stoermelder-P1",
+      "version": "1.8.0",
+      "model": "Glue",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 115,
+      "data": {
+        "panelTheme": 1,
+        "defaultSize": 16.0,
+        "defaultWidth": 80.0,
+        "defaultAngle": 0.0,
+        "defaultOpacity": 1.0,
+        "defaultColor": "#dcff46",
+        "defaultFont": 0,
+        "defaultFontColor": "#080808",
+        "skewLabels": true,
+        "labels": [
+          {
+            "moduleId": 114,
+            "x": -10.4355469,
+            "y": 143.292969,
+            "angle": 0.0,
+            "skew": 7.13541794,
+            "opacity": 1.0,
+            "width": 80.0,
+            "size": 16.0,
+            "text": "Loop",
+            "color": "#dcff46",
+            "font": 0,
+            "fontColor": "#080808"
+          }
+        ]
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 117,
+      "plugin": "Befaco",
+      "version": "1.0.1",
+      "model": "Rampage",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.513000011
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.585000038
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 118,
+      "rightModuleId": 119,
+      "pos": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": 118,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-Manual",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 117,
+      "data": {
+        "triggerOnLoad": false,
+        "shouldTriggerOnLoad": true
+      },
+      "pos": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 119,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 117,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        21,
+        2
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 170,
+      "outputModuleId": 115,
+      "outputId": 0,
+      "inputModuleId": 114,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 171,
+      "outputModuleId": 115,
+      "outputId": 1,
+      "inputModuleId": 113,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 172,
+      "outputModuleId": 114,
+      "outputId": 0,
+      "inputModuleId": 113,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 173,
+      "outputModuleId": 117,
+      "outputId": 6,
+      "inputModuleId": 119,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 174,
+      "outputModuleId": 118,
+      "outputId": 1,
+      "inputModuleId": 119,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 175,
+      "outputModuleId": 118,
+      "outputId": 0,
+      "inputModuleId": 117,
+      "inputId": 2,
+      "color": "#0986ad"
+    }
+  ]
+}
