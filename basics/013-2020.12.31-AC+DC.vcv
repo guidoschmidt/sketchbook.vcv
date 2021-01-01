@@ -1,0 +1,355 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 120,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Braids",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.139999971
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0735000074
+        }
+      ],
+      "leftModuleId": 122,
+      "rightModuleId": 121,
+      "data": {
+        "settings": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lowCpu": false
+      },
+      "pos": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": 121,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 16.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 120,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        18,
+        0
+      ]
+    },
+    {
+      "id": 122,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "LABEL",
+      "params": [],
+      "rightModuleId": 120,
+      "data": {
+        "lastPath": "AC (Alternating Current)"
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 123,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "LABEL",
+      "params": [],
+      "rightModuleId": 125,
+      "data": {
+        "lastPath": "DC (Direct Current)"
+      },
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 124,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 16.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        18,
+        1
+      ]
+    },
+    {
+      "id": 125,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-Reftone",
+      "params": [
+        {
+          "id": 0,
+          "value": 9.0
+        },
+        {
+          "id": 1,
+          "value": 6.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 123,
+      "data": {},
+      "pos": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 126,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        18,
+        2
+      ]
+    },
+    {
+      "id": 127,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "LABEL",
+      "params": [],
+      "rightModuleId": 128,
+      "data": {
+        "lastPath": "Slow Signal (= DC)"
+      },
+      "pos": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 128,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "LFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -3.91399789
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 127,
+      "pos": [
+        2,
+        2
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 186,
+      "outputModuleId": 120,
+      "outputId": 0,
+      "inputModuleId": 121,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 187,
+      "outputModuleId": 125,
+      "outputId": 0,
+      "inputModuleId": 124,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 188,
+      "outputModuleId": 128,
+      "outputId": 0,
+      "inputModuleId": 126,
+      "inputId": 0,
+      "color": "#0c8e15"
+    }
+  ]
+}
