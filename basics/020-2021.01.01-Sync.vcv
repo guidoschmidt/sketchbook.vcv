@@ -1,0 +1,391 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 54,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 57,
+      "rightModuleId": 55,
+      "pos": [
+        23,
+        0
+      ]
+    },
+    {
+      "id": 55,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -7.7760005
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 54,
+      "rightModuleId": 56,
+      "pos": [
+        33,
+        0
+      ]
+    },
+    {
+      "id": 56,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 16.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 55,
+      "rightModuleId": 58,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        43,
+        0
+      ]
+    },
+    {
+      "id": 57,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-Analyzer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 60,
+      "rightModuleId": 54,
+      "data": {
+        "frequency_plot": "log",
+        "amplitude_plot": "decibels_80"
+      },
+      "pos": [
+        3,
+        0
+      ]
+    },
+    {
+      "id": 58,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCMixer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 56,
+      "rightModuleId": 59,
+      "pos": [
+        56,
+        0
+      ]
+    },
+    {
+      "id": 59,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 58,
+      "data": {
+        "audio": {
+          "driver": 5,
+          "deviceName": "Apple Inc.: Built-in Output",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        66,
+        0
+      ]
+    },
+    {
+      "id": 60,
+      "plugin": "Stoermelder-P1",
+      "version": "1.8.0",
+      "model": "Glue",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 57,
+      "data": {
+        "panelTheme": 1,
+        "defaultSize": 16.0,
+        "defaultWidth": 80.0,
+        "defaultAngle": 0.0,
+        "defaultOpacity": 1.0,
+        "defaultColor": "#dcff46",
+        "defaultFont": 0,
+        "defaultFontColor": "#080808",
+        "skewLabels": false,
+        "labels": [
+          {
+            "moduleId": 54,
+            "x": 35.8828125,
+            "y": 1.4296875,
+            "angle": 0.0,
+            "skew": -0.0407040566,
+            "opacity": 1.0,
+            "width": 80.0,
+            "size": 16.0,
+            "text": "Secondary",
+            "color": "#dcff46",
+            "font": 0,
+            "fontColor": "#080808"
+          },
+          {
+            "moduleId": 55,
+            "x": 33.3457031,
+            "y": 0.24609375,
+            "angle": 0.0,
+            "skew": 2.26774311,
+            "opacity": 1.0,
+            "width": 80.0,
+            "size": 16.0,
+            "text": "Primary",
+            "color": "#ff65a3",
+            "font": 0,
+            "fontColor": "#080808"
+          },
+          {
+            "moduleId": 54,
+            "x": 60.0,
+            "y": 38.296875,
+            "angle": 0.0,
+            "skew": -1.09870124,
+            "opacity": 1.0,
+            "width": 180.0,
+            "size": 16.7999916,
+            "text": "Hard Sync vs. Soft Sync",
+            "color": "#ffffff",
+            "font": 0,
+            "fontColor": "#080808"
+          }
+        ]
+      },
+      "pos": [
+        0,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 99,
+      "outputModuleId": 54,
+      "outputId": 1,
+      "inputModuleId": 57,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 100,
+      "outputModuleId": 54,
+      "outputId": 1,
+      "inputModuleId": 56,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 101,
+      "outputModuleId": 55,
+      "outputId": 1,
+      "inputModuleId": 56,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 102,
+      "outputModuleId": 58,
+      "outputId": 0,
+      "inputModuleId": 59,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 103,
+      "outputModuleId": 58,
+      "outputId": 0,
+      "inputModuleId": 59,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 104,
+      "outputModuleId": 54,
+      "outputId": 1,
+      "inputModuleId": 58,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 105,
+      "outputModuleId": 55,
+      "outputId": 1,
+      "inputModuleId": 58,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 106,
+      "outputModuleId": 55,
+      "outputId": 1,
+      "inputModuleId": 54,
+      "inputId": 2,
+      "color": "#0c8e15"
+    }
+  ]
+}
