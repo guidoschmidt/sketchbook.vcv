@@ -1,0 +1,3997 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 430,
+      "data": {
+        "audio": {
+          "driver": 5,
+          "deviceName": "Apple Inc.: Built-in Output",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        150,
+        1
+      ]
+    },
+    {
+      "id": 413,
+      "plugin": "Autodafe-DrumKit",
+      "version": "1.0.0",
+      "model": "DrumsKick",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 418,
+      "rightModuleId": 427,
+      "data": {
+        "sampletype": 2
+      },
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "id": 416,
+      "plugin": "ImpromptuModular",
+      "version": "1.1.9",
+      "model": "Clocked",
+      "params": [
+        {
+          "id": 0,
+          "value": 237.0
+        },
+        {
+          "id": 1,
+          "value": -0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.122999996
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.5
+        },
+        {
+          "id": 10,
+          "value": 0.5
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 1.0
+        },
+        {
+          "id": 17,
+          "value": 1.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 418,
+      "data": {
+        "panelTheme": 0,
+        "running": true,
+        "displayDelayNoteMode": true,
+        "bpmDetectionMode": false,
+        "resetOnStartStop": 0,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "clockMaster": false
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 417,
+      "plugin": "MindMeldModular",
+      "version": "1.1.12",
+      "model": "MixMasterJr",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.784553051
+        },
+        {
+          "id": 1,
+          "value": 0.871487319
+        },
+        {
+          "id": 2,
+          "value": 0.758094788
+        },
+        {
+          "id": 3,
+          "value": 0.693839073
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 1.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 1.0
+        },
+        {
+          "id": 9,
+          "value": 1.0
+        },
+        {
+          "id": 10,
+          "value": 0.5
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        },
+        {
+          "id": 13,
+          "value": 0.5
+        },
+        {
+          "id": 14,
+          "value": 0.5
+        },
+        {
+          "id": 15,
+          "value": 0.5
+        },
+        {
+          "id": 16,
+          "value": 0.5
+        },
+        {
+          "id": 17,
+          "value": 0.5
+        },
+        {
+          "id": 18,
+          "value": 0.5
+        },
+        {
+          "id": 19,
+          "value": 0.5
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        },
+        {
+          "id": 36,
+          "value": 0.0
+        },
+        {
+          "id": 37,
+          "value": 0.0
+        },
+        {
+          "id": 38,
+          "value": 0.0
+        },
+        {
+          "id": 39,
+          "value": 0.0
+        },
+        {
+          "id": 40,
+          "value": 0.0
+        },
+        {
+          "id": 41,
+          "value": 0.0
+        },
+        {
+          "id": 42,
+          "value": 0.0
+        },
+        {
+          "id": 43,
+          "value": 1.0
+        },
+        {
+          "id": 44,
+          "value": 0.0
+        },
+        {
+          "id": 45,
+          "value": 0.0
+        },
+        {
+          "id": 46,
+          "value": 0.0
+        },
+        {
+          "id": 47,
+          "value": 0.0
+        },
+        {
+          "id": 48,
+          "value": 0.0
+        },
+        {
+          "id": 49,
+          "value": 0.0
+        },
+        {
+          "id": 50,
+          "value": 0.0
+        },
+        {
+          "id": 51,
+          "value": 0.0
+        },
+        {
+          "id": 52,
+          "value": 13.0
+        },
+        {
+          "id": 53,
+          "value": 13.0
+        },
+        {
+          "id": 54,
+          "value": 13.0
+        },
+        {
+          "id": 55,
+          "value": 13.0
+        },
+        {
+          "id": 56,
+          "value": 13.0
+        },
+        {
+          "id": 57,
+          "value": 13.0
+        },
+        {
+          "id": 58,
+          "value": 13.0
+        },
+        {
+          "id": 59,
+          "value": 13.0
+        },
+        {
+          "id": 60,
+          "value": 20010.0
+        },
+        {
+          "id": 61,
+          "value": 20010.0
+        },
+        {
+          "id": 62,
+          "value": 20010.0
+        },
+        {
+          "id": 63,
+          "value": 20010.0
+        },
+        {
+          "id": 64,
+          "value": 20010.0
+        },
+        {
+          "id": 65,
+          "value": 20010.0
+        },
+        {
+          "id": 66,
+          "value": 20010.0
+        },
+        {
+          "id": 67,
+          "value": 20010.0
+        },
+        {
+          "id": 68,
+          "value": 13.0
+        },
+        {
+          "id": 69,
+          "value": 13.0
+        },
+        {
+          "id": 70,
+          "value": 20010.0
+        },
+        {
+          "id": 71,
+          "value": 20010.0
+        }
+      ],
+      "leftModuleId": 444,
+      "rightModuleId": 430,
+      "data": {
+        "trackLabels": "-01--02--03--04--05--06--07--08-GRP1GRP2",
+        "panLawMono": 1,
+        "panLawStereo": 1,
+        "directOutsMode": 3,
+        "directOutsSkipGroupedTracks": 0,
+        "auxSendsMode": 3,
+        "groupsControlTrackSendLevels": 0,
+        "auxReturnsMutedWhenMainSolo": 0,
+        "auxReturnsSolosMuteDry": 0,
+        "chainMode": 0,
+        "colorAndCloak": 117440512,
+        "symmetricalFade": false,
+        "fadeCvOutsWithVolCv": false,
+        "linkBitMask": 0,
+        "filterPos": 1,
+        "groupedAuxReturnFeedbackProtection": 1,
+        "ecoMode": 65535,
+        "faders": [
+          0.784553051,
+          0.871487319,
+          0.758094788,
+          0.693839073,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "momentaryCvButtons": 1,
+        "masterFaderScalesSends": 0,
+        "linearVolCvInputs": 0,
+        "id_t0_gainAdjust": 1.0,
+        "id_t0_fadeRate": 0.0,
+        "id_t0_fadeProfile": 0.0,
+        "id_t0_directOutsMode": 3,
+        "id_t0_auxSendsMode": 3,
+        "id_t0_panLawStereo": 1,
+        "id_t0_vuColorThemeLocal": 0,
+        "id_t0_filterPos": 1,
+        "id_t0_dispColorLocal": 0,
+        "id_t0_polyStereo": 0,
+        "id_t0_panCvLevel": 1.0,
+        "id_t0_stereoWidth": 1.0,
+        "id_t0_invertInput": 0,
+        "id_t1_gainAdjust": 1.0,
+        "id_t1_fadeRate": 0.0,
+        "id_t1_fadeProfile": 0.0,
+        "id_t1_directOutsMode": 3,
+        "id_t1_auxSendsMode": 3,
+        "id_t1_panLawStereo": 1,
+        "id_t1_vuColorThemeLocal": 0,
+        "id_t1_filterPos": 1,
+        "id_t1_dispColorLocal": 0,
+        "id_t1_polyStereo": 0,
+        "id_t1_panCvLevel": 1.0,
+        "id_t1_stereoWidth": 1.0,
+        "id_t1_invertInput": 0,
+        "id_t2_gainAdjust": 1.0,
+        "id_t2_fadeRate": 0.0,
+        "id_t2_fadeProfile": 0.0,
+        "id_t2_directOutsMode": 3,
+        "id_t2_auxSendsMode": 3,
+        "id_t2_panLawStereo": 1,
+        "id_t2_vuColorThemeLocal": 0,
+        "id_t2_filterPos": 1,
+        "id_t2_dispColorLocal": 0,
+        "id_t2_polyStereo": 0,
+        "id_t2_panCvLevel": 1.0,
+        "id_t2_stereoWidth": 1.0,
+        "id_t2_invertInput": 0,
+        "id_t3_gainAdjust": 1.0,
+        "id_t3_fadeRate": 0.0,
+        "id_t3_fadeProfile": 0.0,
+        "id_t3_directOutsMode": 3,
+        "id_t3_auxSendsMode": 3,
+        "id_t3_panLawStereo": 1,
+        "id_t3_vuColorThemeLocal": 0,
+        "id_t3_filterPos": 1,
+        "id_t3_dispColorLocal": 0,
+        "id_t3_polyStereo": 0,
+        "id_t3_panCvLevel": 1.0,
+        "id_t3_stereoWidth": 1.0,
+        "id_t3_invertInput": 0,
+        "id_t4_gainAdjust": 1.0,
+        "id_t4_fadeRate": 0.0,
+        "id_t4_fadeProfile": 0.0,
+        "id_t4_directOutsMode": 3,
+        "id_t4_auxSendsMode": 3,
+        "id_t4_panLawStereo": 1,
+        "id_t4_vuColorThemeLocal": 0,
+        "id_t4_filterPos": 1,
+        "id_t4_dispColorLocal": 0,
+        "id_t4_polyStereo": 0,
+        "id_t4_panCvLevel": 1.0,
+        "id_t4_stereoWidth": 1.0,
+        "id_t4_invertInput": 0,
+        "id_t5_gainAdjust": 1.0,
+        "id_t5_fadeRate": 0.0,
+        "id_t5_fadeProfile": 0.0,
+        "id_t5_directOutsMode": 3,
+        "id_t5_auxSendsMode": 3,
+        "id_t5_panLawStereo": 1,
+        "id_t5_vuColorThemeLocal": 0,
+        "id_t5_filterPos": 1,
+        "id_t5_dispColorLocal": 0,
+        "id_t5_polyStereo": 0,
+        "id_t5_panCvLevel": 1.0,
+        "id_t5_stereoWidth": 1.0,
+        "id_t5_invertInput": 0,
+        "id_t6_gainAdjust": 1.0,
+        "id_t6_fadeRate": 0.0,
+        "id_t6_fadeProfile": 0.0,
+        "id_t6_directOutsMode": 3,
+        "id_t6_auxSendsMode": 3,
+        "id_t6_panLawStereo": 1,
+        "id_t6_vuColorThemeLocal": 0,
+        "id_t6_filterPos": 1,
+        "id_t6_dispColorLocal": 0,
+        "id_t6_polyStereo": 0,
+        "id_t6_panCvLevel": 1.0,
+        "id_t6_stereoWidth": 1.0,
+        "id_t6_invertInput": 0,
+        "id_t7_gainAdjust": 1.0,
+        "id_t7_fadeRate": 0.0,
+        "id_t7_fadeProfile": 0.0,
+        "id_t7_directOutsMode": 3,
+        "id_t7_auxSendsMode": 3,
+        "id_t7_panLawStereo": 1,
+        "id_t7_vuColorThemeLocal": 0,
+        "id_t7_filterPos": 1,
+        "id_t7_dispColorLocal": 0,
+        "id_t7_polyStereo": 0,
+        "id_t7_panCvLevel": 1.0,
+        "id_t7_stereoWidth": 1.0,
+        "id_t7_invertInput": 0,
+        "id_g0_fadeRate": 0.0,
+        "id_g0_fadeProfile": 0.0,
+        "id_g0_directOutsMode": 3,
+        "id_g0_auxSendsMode": 3,
+        "id_g0_panLawStereo": 1,
+        "id_g0_vuColorThemeLocal": 0,
+        "id_g0_filterPos": 1,
+        "id_g0_dispColorLocal": 0,
+        "id_g0_panCvLevel": 1.0,
+        "id_g0_stereoWidth": 1.0,
+        "id_g1_fadeRate": 0.0,
+        "id_g1_fadeProfile": 0.0,
+        "id_g1_directOutsMode": 3,
+        "id_g1_auxSendsMode": 3,
+        "id_g1_panLawStereo": 1,
+        "id_g1_vuColorThemeLocal": 0,
+        "id_g1_filterPos": 1,
+        "id_g1_dispColorLocal": 0,
+        "id_g1_panCvLevel": 1.0,
+        "id_g1_stereoWidth": 1.0,
+        "dcBlock": false,
+        "clipping": 0,
+        "fadeRate": 0.0,
+        "fadeProfile": 0.0,
+        "vuColorThemeLocal": 0,
+        "dispColorLocal": 0,
+        "chainOnly": 0,
+        "dimGain": 0.251190007,
+        "masterLabel": "MASTER"
+      },
+      "pos": [
+        102,
+        1
+      ]
+    },
+    {
+      "id": 418,
+      "plugin": "JW-Modules",
+      "version": "1.0.21",
+      "model": "GridSeq",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 3.0
+        },
+        {
+          "id": 4,
+          "value": 3.0
+        },
+        {
+          "id": 5,
+          "value": 3.0
+        },
+        {
+          "id": 6,
+          "value": 3.0
+        },
+        {
+          "id": 7,
+          "value": 3.0
+        },
+        {
+          "id": 8,
+          "value": 1.54499948
+        },
+        {
+          "id": 9,
+          "value": 3.0
+        },
+        {
+          "id": 10,
+          "value": 3.0
+        },
+        {
+          "id": 11,
+          "value": 3.0
+        },
+        {
+          "id": 12,
+          "value": 3.0
+        },
+        {
+          "id": 13,
+          "value": 3.0
+        },
+        {
+          "id": 14,
+          "value": 3.0
+        },
+        {
+          "id": 15,
+          "value": 3.0
+        },
+        {
+          "id": 16,
+          "value": 1.50000012
+        },
+        {
+          "id": 17,
+          "value": 1.85999978
+        },
+        {
+          "id": 18,
+          "value": 3.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        },
+        {
+          "id": 36,
+          "value": 0.0
+        },
+        {
+          "id": 37,
+          "value": 11.0
+        },
+        {
+          "id": 38,
+          "value": 0.0
+        },
+        {
+          "id": 39,
+          "value": 0.0
+        },
+        {
+          "id": 40,
+          "value": 0.0
+        },
+        {
+          "id": 41,
+          "value": 0.0
+        },
+        {
+          "id": 42,
+          "value": 0.0
+        },
+        {
+          "id": 43,
+          "value": 0.0
+        },
+        {
+          "id": 44,
+          "value": 0.0
+        },
+        {
+          "id": 45,
+          "value": 3.0
+        },
+        {
+          "id": 46,
+          "value": 0.0
+        },
+        {
+          "id": 47,
+          "value": 1.0
+        },
+        {
+          "id": 48,
+          "value": 1.0
+        },
+        {
+          "id": 49,
+          "value": 1.0
+        },
+        {
+          "id": 50,
+          "value": 1.0
+        },
+        {
+          "id": 51,
+          "value": 1.0
+        },
+        {
+          "id": 52,
+          "value": 1.0
+        },
+        {
+          "id": 53,
+          "value": 1.0
+        },
+        {
+          "id": 54,
+          "value": 1.0
+        },
+        {
+          "id": 55,
+          "value": 1.0
+        },
+        {
+          "id": 56,
+          "value": 1.0
+        },
+        {
+          "id": 57,
+          "value": 1.0
+        },
+        {
+          "id": 58,
+          "value": 1.0
+        },
+        {
+          "id": 59,
+          "value": 1.0
+        },
+        {
+          "id": 60,
+          "value": 1.0
+        },
+        {
+          "id": 61,
+          "value": 1.0
+        },
+        {
+          "id": 62,
+          "value": 1.0
+        },
+        {
+          "id": 63,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 416,
+      "rightModuleId": 413,
+      "data": {
+        "running": true,
+        "ignoreGateOnPitchOut": false,
+        "gates": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "gateMode": 0
+      },
+      "pos": [
+        20,
+        0
+      ]
+    },
+    {
+      "id": 424,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "ReverbFx",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.258499414
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 427,
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      },
+      "pos": [
+        47,
+        0
+      ]
+    },
+    {
+      "id": 427,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0450000465
+        },
+        {
+          "id": 1,
+          "value": 0.139500037
+        },
+        {
+          "id": 2,
+          "value": 0.0974999964
+        },
+        {
+          "id": 3,
+          "value": 0.638499975
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 413,
+      "rightModuleId": 424,
+      "data": {
+        "invert": 1.0
+      },
+      "pos": [
+        44,
+        0
+      ]
+    },
+    {
+      "id": 428,
+      "plugin": "Sha-Bang-Modules",
+      "version": "1.2.2",
+      "model": "StochSeq",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 32.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 2.0
+        },
+        {
+          "id": 7,
+          "value": 2.0
+        }
+      ],
+      "rightModuleId": 429,
+      "data": {
+        "currentPattern": 0,
+        "probs": [
+          0.14819026,
+          0.374043941,
+          0.640022039,
+          0.61836338,
+          0.780289471,
+          0.970993578,
+          0.324394703,
+          0.98925966,
+          0.213987827,
+          0.827715874,
+          0.690547764,
+          0.211089432,
+          0.639583766,
+          0.0431338549,
+          0.0776023865,
+          0.632547557,
+          0.771539867,
+          0.692047536,
+          0.328508139,
+          0.655451119,
+          0.0612800121,
+          0.201646864,
+          0.0382977724,
+          0.705022514,
+          0.292418063,
+          0.951340497,
+          0.0229219198,
+          0.0548116565,
+          0.532621622,
+          0.538641751,
+          0.250901401,
+          0.977532089
+        ]
+      },
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 429,
+      "plugin": "VultModules",
+      "version": "1.14",
+      "model": "Basal",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -0.399000198
+        },
+        {
+          "id": 2,
+          "value": 0.139000073
+        },
+        {
+          "id": 3,
+          "value": -0.272999942
+        },
+        {
+          "id": 4,
+          "value": 0.203500003
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 428,
+      "rightModuleId": 431,
+      "pos": [
+        33,
+        1
+      ]
+    },
+    {
+      "id": 430,
+      "plugin": "Valley",
+      "version": "1.1.5",
+      "model": "Plateau",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.824499965
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0344999991
+        },
+        {
+          "id": 3,
+          "value": 7.29999638
+        },
+        {
+          "id": 4,
+          "value": 5.51500034
+        },
+        {
+          "id": 5,
+          "value": 0.728000104
+        },
+        {
+          "id": 6,
+          "value": 8.64999294
+        },
+        {
+          "id": 7,
+          "value": 0.40551582
+        },
+        {
+          "id": 8,
+          "value": 8.27499866
+        },
+        {
+          "id": 9,
+          "value": 8.49999905
+        },
+        {
+          "id": 10,
+          "value": 0.244500026
+        },
+        {
+          "id": 11,
+          "value": 0.271999955
+        },
+        {
+          "id": 12,
+          "value": 4.60400105
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": -0.057
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": -0.0569999926
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": -0.159000009
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 417,
+      "rightModuleId": 1,
+      "data": {
+        "frozen": false,
+        "freezeToggle": false,
+        "panelStyle": 0,
+        "tuned": 0,
+        "diffuseInput": 0,
+        "preDelayCVSens": 0,
+        "inputSensitivity": 0,
+        "outputSaturation": 0
+      },
+      "pos": [
+        138,
+        1
+      ]
+    },
+    {
+      "id": 431,
+      "plugin": "VultModules",
+      "version": "1.14",
+      "model": "Flame",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.166500211
+        },
+        {
+          "id": 1,
+          "value": 0.492500007
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 429,
+      "rightModuleId": 432,
+      "data": {
+        "compatibility": true,
+        "dist_model": 5,
+        "tone_model": 0,
+        "gain_mode": 2
+      },
+      "pos": [
+        39,
+        1
+      ]
+    },
+    {
+      "id": 432,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-DADSRH",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.240000039
+        },
+        {
+          "id": 1,
+          "value": 0.484920055
+        },
+        {
+          "id": 2,
+          "value": 0.262229949
+        },
+        {
+          "id": 3,
+          "value": 0.394999713
+        },
+        {
+          "id": 4,
+          "value": 0.776730061
+        },
+        {
+          "id": 5,
+          "value": 0.447210014
+        },
+        {
+          "id": 6,
+          "value": 1.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 2.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 1.0
+        },
+        {
+          "id": 12,
+          "value": 1.0
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 431,
+      "rightModuleId": 438,
+      "data": {
+        "triggerOnLoad": true,
+        "shouldTriggerOnLoad": false
+      },
+      "pos": [
+        49,
+        1
+      ]
+    },
+    {
+      "id": 433,
+      "plugin": "VultModules",
+      "version": "1.14",
+      "model": "Basal",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -0.474000037
+        },
+        {
+          "id": 2,
+          "value": 0.362999797
+        },
+        {
+          "id": 3,
+          "value": -0.272999942
+        },
+        {
+          "id": 4,
+          "value": 0.166499987
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 434,
+      "pos": [
+        33,
+        2
+      ]
+    },
+    {
+      "id": 434,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-DADSRH",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.247920036
+        },
+        {
+          "id": 2,
+          "value": 0.185729951
+        },
+        {
+          "id": 3,
+          "value": 0.153499871
+        },
+        {
+          "id": 4,
+          "value": 0.905729949
+        },
+        {
+          "id": 5,
+          "value": 0.589709938
+        },
+        {
+          "id": 6,
+          "value": 3.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 3.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 1.0
+        },
+        {
+          "id": 12,
+          "value": 1.0
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 433,
+      "rightModuleId": 437,
+      "data": {
+        "triggerOnLoad": true,
+        "shouldTriggerOnLoad": true
+      },
+      "pos": [
+        39,
+        2
+      ]
+    },
+    {
+      "id": 435,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 437,
+      "pos": [
+        57,
+        2
+      ]
+    },
+    {
+      "id": 437,
+      "plugin": "Valley",
+      "version": "1.1.5",
+      "model": "Feline",
+      "params": [
+        {
+          "id": 0,
+          "value": 3.36998701
+        },
+        {
+          "id": 1,
+          "value": 6.00000095
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.162000015
+        },
+        {
+          "id": 5,
+          "value": 0.335999995
+        },
+        {
+          "id": 6,
+          "value": 0.337499917
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": -0.243000001
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 434,
+      "rightModuleId": 435,
+      "data": {
+        "panelStyle": 0
+      },
+      "pos": [
+        49,
+        2
+      ]
+    },
+    {
+      "id": 438,
+      "plugin": "OrangeLine",
+      "version": "1.3.3",
+      "model": "Mother",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 4.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.31099996
+        },
+        {
+          "id": 6,
+          "value": 0.291499853
+        },
+        {
+          "id": 7,
+          "value": 0.385999948
+        },
+        {
+          "id": 8,
+          "value": 0.36650005
+        },
+        {
+          "id": 9,
+          "value": 0.318500012
+        },
+        {
+          "id": 10,
+          "value": 0.414499909
+        },
+        {
+          "id": 11,
+          "value": 0.387499988
+        },
+        {
+          "id": 12,
+          "value": 0.476000041
+        },
+        {
+          "id": 13,
+          "value": 0.384499967
+        },
+        {
+          "id": 14,
+          "value": 0.357499927
+        },
+        {
+          "id": 15,
+          "value": 0.324500114
+        },
+        {
+          "id": 16,
+          "value": 0.331999898
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 432,
+      "rightModuleId": 444,
+      "data": {
+        "style": 0.0,
+        "autoChannels": 1.0,
+        "s01n00": 1.0,
+        "s01n01": 0.0,
+        "s01n02": 0.0,
+        "s01n03": 0.0,
+        "s01n04": 0.0,
+        "s01n05": 1.0,
+        "s01n06": 0.0,
+        "s01n07": 0.0,
+        "s01n08": 0.0,
+        "s01n09": 1.0,
+        "s01n10": 0.0,
+        "s01n11": 0.0,
+        "s02n00": 1.0,
+        "s02n01": 0.0,
+        "s02n02": 0.0,
+        "s02n03": 0.0,
+        "s02n04": 0.0,
+        "s02n05": 0.0,
+        "s02n06": 0.0,
+        "s02n07": 0.0,
+        "s02n08": 0.0,
+        "s02n09": 0.0,
+        "s02n10": 0.0,
+        "s02n11": 0.0,
+        "s03n00": 1.0,
+        "s03n01": 0.0,
+        "s03n02": 0.0,
+        "s03n03": 0.0,
+        "s03n04": 0.0,
+        "s03n05": 0.0,
+        "s03n06": 0.0,
+        "s03n07": 0.0,
+        "s03n08": 0.0,
+        "s03n09": 0.0,
+        "s03n10": 0.0,
+        "s03n11": 0.0,
+        "s04n00": 1.0,
+        "s04n01": 1.0,
+        "s04n02": 1.0,
+        "s04n03": 1.0,
+        "s04n04": 0.0,
+        "s04n05": 1.0,
+        "s04n06": 1.0,
+        "s04n07": 0.0,
+        "s04n08": 0.0,
+        "s04n09": 0.0,
+        "s04n10": 0.0,
+        "s04n11": 0.0,
+        "s05n00": 1.0,
+        "s05n01": 0.0,
+        "s05n02": 0.0,
+        "s05n03": 0.0,
+        "s05n04": 0.0,
+        "s05n05": 0.0,
+        "s05n06": 0.0,
+        "s05n07": 0.0,
+        "s05n08": 0.0,
+        "s05n09": 0.0,
+        "s05n10": 0.0,
+        "s05n11": 0.0,
+        "s06n00": 1.0,
+        "s06n01": 0.0,
+        "s06n02": 0.0,
+        "s06n03": 0.0,
+        "s06n04": 0.0,
+        "s06n05": 0.0,
+        "s06n06": 0.0,
+        "s06n07": 0.0,
+        "s06n08": 0.0,
+        "s06n09": 0.0,
+        "s06n10": 0.0,
+        "s06n11": 0.0,
+        "s07n00": 1.0,
+        "s07n01": 0.0,
+        "s07n02": 0.0,
+        "s07n03": 0.0,
+        "s07n04": 0.0,
+        "s07n05": 0.0,
+        "s07n06": 0.0,
+        "s07n07": 0.0,
+        "s07n08": 0.0,
+        "s07n09": 0.0,
+        "s07n10": 0.0,
+        "s07n11": 0.0,
+        "s08n00": 1.0,
+        "s08n01": 0.0,
+        "s08n02": 0.0,
+        "s08n03": 0.0,
+        "s08n04": 0.0,
+        "s08n05": 0.0,
+        "s08n06": 0.0,
+        "s08n07": 0.0,
+        "s08n08": 0.0,
+        "s08n09": 0.0,
+        "s08n10": 0.0,
+        "s08n11": 0.0,
+        "s09n00": 1.0,
+        "s09n01": 0.0,
+        "s09n02": 0.0,
+        "s09n03": 0.0,
+        "s09n04": 0.0,
+        "s09n05": 0.0,
+        "s09n06": 0.0,
+        "s09n07": 0.0,
+        "s09n08": 0.0,
+        "s09n09": 0.0,
+        "s09n10": 0.0,
+        "s09n11": 0.0,
+        "s10n00": 1.0,
+        "s10n01": 0.0,
+        "s10n02": 0.0,
+        "s10n03": 0.0,
+        "s10n04": 0.0,
+        "s10n05": 0.0,
+        "s10n06": 0.0,
+        "s10n07": 0.0,
+        "s10n08": 0.0,
+        "s10n09": 0.0,
+        "s10n10": 0.0,
+        "s10n11": 0.0,
+        "s11n00": 1.0,
+        "s11n01": 0.0,
+        "s11n02": 0.0,
+        "s11n03": 0.0,
+        "s11n04": 0.0,
+        "s11n05": 0.0,
+        "s11n06": 0.0,
+        "s11n07": 0.0,
+        "s11n08": 0.0,
+        "s11n09": 0.0,
+        "s11n10": 0.0,
+        "s11n11": 0.0,
+        "s12n00": 1.0,
+        "s12n01": 0.0,
+        "s12n02": 0.0,
+        "s12n03": 0.0,
+        "s12n04": 0.0,
+        "s12n05": 0.0,
+        "s12n06": 0.0,
+        "s12n07": 0.0,
+        "s12n08": 0.0,
+        "s12n09": 0.0,
+        "s12n10": 0.0,
+        "s12n11": 0.0,
+        "s01c00w00": 0.397999972,
+        "s01c00w01": 0.42049998,
+        "s01c00w02": 0.411499977,
+        "s01c00w03": 0.375499964,
+        "s01c00w04": 0.387499928,
+        "s01c00w05": 0.546499908,
+        "s01c00w06": 0.5,
+        "s01c00w07": 0.5,
+        "s01c00w08": 0.561499894,
+        "s01c00w09": 0.39349997,
+        "s01c00w10": 0.289999992,
+        "s01c00w11": 0.433999985,
+        "s01c01w00": 0.5,
+        "s01c01w01": 0.5,
+        "s01c01w02": 0.5,
+        "s01c01w03": 0.5,
+        "s01c01w04": 0.5,
+        "s01c01w05": 0.5,
+        "s01c01w06": 0.5,
+        "s01c01w07": 0.5,
+        "s01c01w08": 0.5,
+        "s01c01w09": 0.5,
+        "s01c01w10": 0.5,
+        "s01c01w11": 0.5,
+        "s01c02w00": 0.5,
+        "s01c02w01": 0.5,
+        "s01c02w02": 0.5,
+        "s01c02w03": 0.5,
+        "s01c02w04": 0.5,
+        "s01c02w05": 0.5,
+        "s01c02w06": 0.5,
+        "s01c02w07": 0.5,
+        "s01c02w08": 0.5,
+        "s01c02w09": 0.5,
+        "s01c02w10": 0.5,
+        "s01c02w11": 0.5,
+        "s01c03w00": 0.5,
+        "s01c03w01": 0.5,
+        "s01c03w02": 0.5,
+        "s01c03w03": 0.5,
+        "s01c03w04": 0.5,
+        "s01c03w05": 0.5,
+        "s01c03w06": 0.5,
+        "s01c03w07": 0.5,
+        "s01c03w08": 0.5,
+        "s01c03w09": 0.5,
+        "s01c03w10": 0.5,
+        "s01c03w11": 0.5,
+        "s01c04w00": 0.5,
+        "s01c04w01": 0.5,
+        "s01c04w02": 0.5,
+        "s01c04w03": 0.5,
+        "s01c04w04": 0.5,
+        "s01c04w05": 0.5,
+        "s01c04w06": 0.5,
+        "s01c04w07": 0.5,
+        "s01c04w08": 0.5,
+        "s01c04w09": 0.5,
+        "s01c04w10": 0.5,
+        "s01c04w11": 0.5,
+        "s01c05w00": 0.5,
+        "s01c05w01": 0.5,
+        "s01c05w02": 0.5,
+        "s01c05w03": 0.5,
+        "s01c05w04": 0.5,
+        "s01c05w05": 0.5,
+        "s01c05w06": 0.5,
+        "s01c05w07": 0.5,
+        "s01c05w08": 0.5,
+        "s01c05w09": 0.5,
+        "s01c05w10": 0.5,
+        "s01c05w11": 0.5,
+        "s01c06w00": 0.5,
+        "s01c06w01": 0.5,
+        "s01c06w02": 0.5,
+        "s01c06w03": 0.5,
+        "s01c06w04": 0.5,
+        "s01c06w05": 0.5,
+        "s01c06w06": 0.5,
+        "s01c06w07": 0.5,
+        "s01c06w08": 0.5,
+        "s01c06w09": 0.5,
+        "s01c06w10": 0.5,
+        "s01c06w11": 0.5,
+        "s01c07w00": 0.5,
+        "s01c07w01": 0.5,
+        "s01c07w02": 0.5,
+        "s01c07w03": 0.5,
+        "s01c07w04": 0.5,
+        "s01c07w05": 0.5,
+        "s01c07w06": 0.5,
+        "s01c07w07": 0.5,
+        "s01c07w08": 0.5,
+        "s01c07w09": 0.5,
+        "s01c07w10": 0.5,
+        "s01c07w11": 0.5,
+        "s01c08w00": 0.5,
+        "s01c08w01": 0.5,
+        "s01c08w02": 0.5,
+        "s01c08w03": 0.5,
+        "s01c08w04": 0.5,
+        "s01c08w05": 0.5,
+        "s01c08w06": 0.5,
+        "s01c08w07": 0.5,
+        "s01c08w08": 0.5,
+        "s01c08w09": 0.5,
+        "s01c08w10": 0.5,
+        "s01c08w11": 0.5,
+        "s01c09w00": 0.5,
+        "s01c09w01": 0.5,
+        "s01c09w02": 0.5,
+        "s01c09w03": 0.5,
+        "s01c09w04": 0.5,
+        "s01c09w05": 0.5,
+        "s01c09w06": 0.5,
+        "s01c09w07": 0.5,
+        "s01c09w08": 0.5,
+        "s01c09w09": 0.5,
+        "s01c09w10": 0.5,
+        "s01c09w11": 0.5,
+        "s01c10w00": 0.5,
+        "s01c10w01": 0.5,
+        "s01c10w02": 0.5,
+        "s01c10w03": 0.5,
+        "s01c10w04": 0.5,
+        "s01c10w05": 0.5,
+        "s01c10w06": 0.5,
+        "s01c10w07": 0.5,
+        "s01c10w08": 0.5,
+        "s01c10w09": 0.5,
+        "s01c10w10": 0.5,
+        "s01c10w11": 0.5,
+        "s01c11w00": 0.5,
+        "s01c11w01": 0.5,
+        "s01c11w02": 0.5,
+        "s01c11w03": 0.5,
+        "s01c11w04": 0.5,
+        "s01c11w05": 0.5,
+        "s01c11w06": 0.5,
+        "s01c11w07": 0.5,
+        "s01c11w08": 0.5,
+        "s01c11w09": 0.5,
+        "s01c11w10": 0.5,
+        "s01c11w11": 0.5,
+        "s02c00w00": 0.5,
+        "s02c00w01": 0.5,
+        "s02c00w02": 0.5,
+        "s02c00w03": 0.5,
+        "s02c00w04": 0.5,
+        "s02c00w05": 0.5,
+        "s02c00w06": 0.5,
+        "s02c00w07": 0.5,
+        "s02c00w08": 0.5,
+        "s02c00w09": 0.5,
+        "s02c00w10": 0.5,
+        "s02c00w11": 0.5,
+        "s02c01w00": 0.5,
+        "s02c01w01": 0.5,
+        "s02c01w02": 0.5,
+        "s02c01w03": 0.5,
+        "s02c01w04": 0.5,
+        "s02c01w05": 0.5,
+        "s02c01w06": 0.5,
+        "s02c01w07": 0.5,
+        "s02c01w08": 0.5,
+        "s02c01w09": 0.5,
+        "s02c01w10": 0.5,
+        "s02c01w11": 0.5,
+        "s02c02w00": 0.5,
+        "s02c02w01": 0.5,
+        "s02c02w02": 0.5,
+        "s02c02w03": 0.5,
+        "s02c02w04": 0.5,
+        "s02c02w05": 0.5,
+        "s02c02w06": 0.5,
+        "s02c02w07": 0.5,
+        "s02c02w08": 0.5,
+        "s02c02w09": 0.5,
+        "s02c02w10": 0.5,
+        "s02c02w11": 0.5,
+        "s02c03w00": 0.5,
+        "s02c03w01": 0.5,
+        "s02c03w02": 0.5,
+        "s02c03w03": 0.5,
+        "s02c03w04": 0.5,
+        "s02c03w05": 0.5,
+        "s02c03w06": 0.5,
+        "s02c03w07": 0.5,
+        "s02c03w08": 0.5,
+        "s02c03w09": 0.5,
+        "s02c03w10": 0.5,
+        "s02c03w11": 0.5,
+        "s02c04w00": 0.5,
+        "s02c04w01": 0.5,
+        "s02c04w02": 0.5,
+        "s02c04w03": 0.5,
+        "s02c04w04": 0.5,
+        "s02c04w05": 0.5,
+        "s02c04w06": 0.5,
+        "s02c04w07": 0.5,
+        "s02c04w08": 0.5,
+        "s02c04w09": 0.5,
+        "s02c04w10": 0.5,
+        "s02c04w11": 0.5,
+        "s02c05w00": 0.5,
+        "s02c05w01": 0.5,
+        "s02c05w02": 0.5,
+        "s02c05w03": 0.5,
+        "s02c05w04": 0.5,
+        "s02c05w05": 0.5,
+        "s02c05w06": 0.5,
+        "s02c05w07": 0.5,
+        "s02c05w08": 0.5,
+        "s02c05w09": 0.5,
+        "s02c05w10": 0.5,
+        "s02c05w11": 0.5,
+        "s02c06w00": 0.5,
+        "s02c06w01": 0.5,
+        "s02c06w02": 0.5,
+        "s02c06w03": 0.5,
+        "s02c06w04": 0.5,
+        "s02c06w05": 0.5,
+        "s02c06w06": 0.5,
+        "s02c06w07": 0.5,
+        "s02c06w08": 0.5,
+        "s02c06w09": 0.5,
+        "s02c06w10": 0.5,
+        "s02c06w11": 0.5,
+        "s02c07w00": 0.5,
+        "s02c07w01": 0.5,
+        "s02c07w02": 0.5,
+        "s02c07w03": 0.5,
+        "s02c07w04": 0.5,
+        "s02c07w05": 0.5,
+        "s02c07w06": 0.5,
+        "s02c07w07": 0.5,
+        "s02c07w08": 0.5,
+        "s02c07w09": 0.5,
+        "s02c07w10": 0.5,
+        "s02c07w11": 0.5,
+        "s02c08w00": 0.5,
+        "s02c08w01": 0.5,
+        "s02c08w02": 0.5,
+        "s02c08w03": 0.5,
+        "s02c08w04": 0.5,
+        "s02c08w05": 0.5,
+        "s02c08w06": 0.5,
+        "s02c08w07": 0.5,
+        "s02c08w08": 0.5,
+        "s02c08w09": 0.5,
+        "s02c08w10": 0.5,
+        "s02c08w11": 0.5,
+        "s02c09w00": 0.5,
+        "s02c09w01": 0.5,
+        "s02c09w02": 0.5,
+        "s02c09w03": 0.5,
+        "s02c09w04": 0.5,
+        "s02c09w05": 0.5,
+        "s02c09w06": 0.5,
+        "s02c09w07": 0.5,
+        "s02c09w08": 0.5,
+        "s02c09w09": 0.5,
+        "s02c09w10": 0.5,
+        "s02c09w11": 0.5,
+        "s02c10w00": 0.5,
+        "s02c10w01": 0.5,
+        "s02c10w02": 0.5,
+        "s02c10w03": 0.5,
+        "s02c10w04": 0.5,
+        "s02c10w05": 0.5,
+        "s02c10w06": 0.5,
+        "s02c10w07": 0.5,
+        "s02c10w08": 0.5,
+        "s02c10w09": 0.5,
+        "s02c10w10": 0.5,
+        "s02c10w11": 0.5,
+        "s02c11w00": 0.5,
+        "s02c11w01": 0.5,
+        "s02c11w02": 0.5,
+        "s02c11w03": 0.5,
+        "s02c11w04": 0.5,
+        "s02c11w05": 0.5,
+        "s02c11w06": 0.5,
+        "s02c11w07": 0.5,
+        "s02c11w08": 0.5,
+        "s02c11w09": 0.5,
+        "s02c11w10": 0.5,
+        "s02c11w11": 0.5,
+        "s03c00w00": 0.5,
+        "s03c00w01": 0.5,
+        "s03c00w02": 0.5,
+        "s03c00w03": 0.5,
+        "s03c00w04": 0.5,
+        "s03c00w05": 0.5,
+        "s03c00w06": 0.5,
+        "s03c00w07": 0.5,
+        "s03c00w08": 0.5,
+        "s03c00w09": 0.5,
+        "s03c00w10": 0.5,
+        "s03c00w11": 0.5,
+        "s03c01w00": 0.5,
+        "s03c01w01": 0.5,
+        "s03c01w02": 0.5,
+        "s03c01w03": 0.5,
+        "s03c01w04": 0.5,
+        "s03c01w05": 0.5,
+        "s03c01w06": 0.5,
+        "s03c01w07": 0.5,
+        "s03c01w08": 0.5,
+        "s03c01w09": 0.5,
+        "s03c01w10": 0.5,
+        "s03c01w11": 0.5,
+        "s03c02w00": 0.5,
+        "s03c02w01": 0.5,
+        "s03c02w02": 0.5,
+        "s03c02w03": 0.5,
+        "s03c02w04": 0.5,
+        "s03c02w05": 0.5,
+        "s03c02w06": 0.5,
+        "s03c02w07": 0.5,
+        "s03c02w08": 0.5,
+        "s03c02w09": 0.5,
+        "s03c02w10": 0.5,
+        "s03c02w11": 0.5,
+        "s03c03w00": 0.5,
+        "s03c03w01": 0.5,
+        "s03c03w02": 0.5,
+        "s03c03w03": 0.5,
+        "s03c03w04": 0.5,
+        "s03c03w05": 0.5,
+        "s03c03w06": 0.5,
+        "s03c03w07": 0.5,
+        "s03c03w08": 0.5,
+        "s03c03w09": 0.5,
+        "s03c03w10": 0.5,
+        "s03c03w11": 0.5,
+        "s03c04w00": 0.5,
+        "s03c04w01": 0.5,
+        "s03c04w02": 0.5,
+        "s03c04w03": 0.5,
+        "s03c04w04": 0.5,
+        "s03c04w05": 0.5,
+        "s03c04w06": 0.5,
+        "s03c04w07": 0.5,
+        "s03c04w08": 0.5,
+        "s03c04w09": 0.5,
+        "s03c04w10": 0.5,
+        "s03c04w11": 0.5,
+        "s03c05w00": 0.5,
+        "s03c05w01": 0.5,
+        "s03c05w02": 0.5,
+        "s03c05w03": 0.5,
+        "s03c05w04": 0.5,
+        "s03c05w05": 0.5,
+        "s03c05w06": 0.5,
+        "s03c05w07": 0.5,
+        "s03c05w08": 0.5,
+        "s03c05w09": 0.5,
+        "s03c05w10": 0.5,
+        "s03c05w11": 0.5,
+        "s03c06w00": 0.5,
+        "s03c06w01": 0.5,
+        "s03c06w02": 0.5,
+        "s03c06w03": 0.5,
+        "s03c06w04": 0.5,
+        "s03c06w05": 0.5,
+        "s03c06w06": 0.5,
+        "s03c06w07": 0.5,
+        "s03c06w08": 0.5,
+        "s03c06w09": 0.5,
+        "s03c06w10": 0.5,
+        "s03c06w11": 0.5,
+        "s03c07w00": 0.5,
+        "s03c07w01": 0.5,
+        "s03c07w02": 0.5,
+        "s03c07w03": 0.5,
+        "s03c07w04": 0.5,
+        "s03c07w05": 0.5,
+        "s03c07w06": 0.5,
+        "s03c07w07": 0.5,
+        "s03c07w08": 0.5,
+        "s03c07w09": 0.5,
+        "s03c07w10": 0.5,
+        "s03c07w11": 0.5,
+        "s03c08w00": 0.5,
+        "s03c08w01": 0.5,
+        "s03c08w02": 0.5,
+        "s03c08w03": 0.5,
+        "s03c08w04": 0.5,
+        "s03c08w05": 0.5,
+        "s03c08w06": 0.5,
+        "s03c08w07": 0.5,
+        "s03c08w08": 0.5,
+        "s03c08w09": 0.5,
+        "s03c08w10": 0.5,
+        "s03c08w11": 0.5,
+        "s03c09w00": 0.5,
+        "s03c09w01": 0.5,
+        "s03c09w02": 0.5,
+        "s03c09w03": 0.5,
+        "s03c09w04": 0.5,
+        "s03c09w05": 0.5,
+        "s03c09w06": 0.5,
+        "s03c09w07": 0.5,
+        "s03c09w08": 0.5,
+        "s03c09w09": 0.5,
+        "s03c09w10": 0.5,
+        "s03c09w11": 0.5,
+        "s03c10w00": 0.5,
+        "s03c10w01": 0.5,
+        "s03c10w02": 0.5,
+        "s03c10w03": 0.5,
+        "s03c10w04": 0.5,
+        "s03c10w05": 0.5,
+        "s03c10w06": 0.5,
+        "s03c10w07": 0.5,
+        "s03c10w08": 0.5,
+        "s03c10w09": 0.5,
+        "s03c10w10": 0.5,
+        "s03c10w11": 0.5,
+        "s03c11w00": 0.5,
+        "s03c11w01": 0.5,
+        "s03c11w02": 0.5,
+        "s03c11w03": 0.5,
+        "s03c11w04": 0.5,
+        "s03c11w05": 0.5,
+        "s03c11w06": 0.5,
+        "s03c11w07": 0.5,
+        "s03c11w08": 0.5,
+        "s03c11w09": 0.5,
+        "s03c11w10": 0.5,
+        "s03c11w11": 0.5,
+        "s04c00w00": 0.31099996,
+        "s04c00w01": 0.291499853,
+        "s04c00w02": 0.385999948,
+        "s04c00w03": 0.36650005,
+        "s04c00w04": 0.318500012,
+        "s04c00w05": 0.414499909,
+        "s04c00w06": 0.387499988,
+        "s04c00w07": 0.476000041,
+        "s04c00w08": 0.384499967,
+        "s04c00w09": 0.357499927,
+        "s04c00w10": 0.324500114,
+        "s04c00w11": 0.331999898,
+        "s04c01w00": 0.5,
+        "s04c01w01": 0.5,
+        "s04c01w02": 0.5,
+        "s04c01w03": 0.5,
+        "s04c01w04": 0.5,
+        "s04c01w05": 0.5,
+        "s04c01w06": 0.5,
+        "s04c01w07": 0.5,
+        "s04c01w08": 0.5,
+        "s04c01w09": 0.5,
+        "s04c01w10": 0.5,
+        "s04c01w11": 0.5,
+        "s04c02w00": 0.5,
+        "s04c02w01": 0.5,
+        "s04c02w02": 0.5,
+        "s04c02w03": 0.5,
+        "s04c02w04": 0.5,
+        "s04c02w05": 0.5,
+        "s04c02w06": 0.5,
+        "s04c02w07": 0.5,
+        "s04c02w08": 0.5,
+        "s04c02w09": 0.5,
+        "s04c02w10": 0.5,
+        "s04c02w11": 0.5,
+        "s04c03w00": 0.5,
+        "s04c03w01": 0.5,
+        "s04c03w02": 0.5,
+        "s04c03w03": 0.5,
+        "s04c03w04": 0.5,
+        "s04c03w05": 0.5,
+        "s04c03w06": 0.5,
+        "s04c03w07": 0.5,
+        "s04c03w08": 0.5,
+        "s04c03w09": 0.5,
+        "s04c03w10": 0.5,
+        "s04c03w11": 0.5,
+        "s04c04w00": 0.5,
+        "s04c04w01": 0.5,
+        "s04c04w02": 0.5,
+        "s04c04w03": 0.5,
+        "s04c04w04": 0.5,
+        "s04c04w05": 0.5,
+        "s04c04w06": 0.5,
+        "s04c04w07": 0.5,
+        "s04c04w08": 0.5,
+        "s04c04w09": 0.5,
+        "s04c04w10": 0.5,
+        "s04c04w11": 0.5,
+        "s04c05w00": 0.5,
+        "s04c05w01": 0.5,
+        "s04c05w02": 0.5,
+        "s04c05w03": 0.5,
+        "s04c05w04": 0.5,
+        "s04c05w05": 0.5,
+        "s04c05w06": 0.5,
+        "s04c05w07": 0.5,
+        "s04c05w08": 0.5,
+        "s04c05w09": 0.5,
+        "s04c05w10": 0.5,
+        "s04c05w11": 0.5,
+        "s04c06w00": 0.5,
+        "s04c06w01": 0.5,
+        "s04c06w02": 0.5,
+        "s04c06w03": 0.5,
+        "s04c06w04": 0.5,
+        "s04c06w05": 0.5,
+        "s04c06w06": 0.5,
+        "s04c06w07": 0.5,
+        "s04c06w08": 0.5,
+        "s04c06w09": 0.5,
+        "s04c06w10": 0.5,
+        "s04c06w11": 0.5,
+        "s04c07w00": 0.5,
+        "s04c07w01": 0.5,
+        "s04c07w02": 0.5,
+        "s04c07w03": 0.5,
+        "s04c07w04": 0.5,
+        "s04c07w05": 0.5,
+        "s04c07w06": 0.5,
+        "s04c07w07": 0.5,
+        "s04c07w08": 0.5,
+        "s04c07w09": 0.5,
+        "s04c07w10": 0.5,
+        "s04c07w11": 0.5,
+        "s04c08w00": 0.5,
+        "s04c08w01": 0.5,
+        "s04c08w02": 0.5,
+        "s04c08w03": 0.5,
+        "s04c08w04": 0.5,
+        "s04c08w05": 0.5,
+        "s04c08w06": 0.5,
+        "s04c08w07": 0.5,
+        "s04c08w08": 0.5,
+        "s04c08w09": 0.5,
+        "s04c08w10": 0.5,
+        "s04c08w11": 0.5,
+        "s04c09w00": 0.5,
+        "s04c09w01": 0.5,
+        "s04c09w02": 0.5,
+        "s04c09w03": 0.5,
+        "s04c09w04": 0.5,
+        "s04c09w05": 0.5,
+        "s04c09w06": 0.5,
+        "s04c09w07": 0.5,
+        "s04c09w08": 0.5,
+        "s04c09w09": 0.5,
+        "s04c09w10": 0.5,
+        "s04c09w11": 0.5,
+        "s04c10w00": 0.5,
+        "s04c10w01": 0.5,
+        "s04c10w02": 0.5,
+        "s04c10w03": 0.5,
+        "s04c10w04": 0.5,
+        "s04c10w05": 0.5,
+        "s04c10w06": 0.5,
+        "s04c10w07": 0.5,
+        "s04c10w08": 0.5,
+        "s04c10w09": 0.5,
+        "s04c10w10": 0.5,
+        "s04c10w11": 0.5,
+        "s04c11w00": 0.5,
+        "s04c11w01": 0.5,
+        "s04c11w02": 0.5,
+        "s04c11w03": 0.5,
+        "s04c11w04": 0.5,
+        "s04c11w05": 0.5,
+        "s04c11w06": 0.5,
+        "s04c11w07": 0.5,
+        "s04c11w08": 0.5,
+        "s04c11w09": 0.5,
+        "s04c11w10": 0.5,
+        "s04c11w11": 0.5,
+        "s05c00w00": 0.5,
+        "s05c00w01": 0.5,
+        "s05c00w02": 0.5,
+        "s05c00w03": 0.5,
+        "s05c00w04": 0.5,
+        "s05c00w05": 0.5,
+        "s05c00w06": 0.5,
+        "s05c00w07": 0.5,
+        "s05c00w08": 0.5,
+        "s05c00w09": 0.5,
+        "s05c00w10": 0.5,
+        "s05c00w11": 0.5,
+        "s05c01w00": 0.5,
+        "s05c01w01": 0.5,
+        "s05c01w02": 0.5,
+        "s05c01w03": 0.5,
+        "s05c01w04": 0.5,
+        "s05c01w05": 0.5,
+        "s05c01w06": 0.5,
+        "s05c01w07": 0.5,
+        "s05c01w08": 0.5,
+        "s05c01w09": 0.5,
+        "s05c01w10": 0.5,
+        "s05c01w11": 0.5,
+        "s05c02w00": 0.5,
+        "s05c02w01": 0.5,
+        "s05c02w02": 0.5,
+        "s05c02w03": 0.5,
+        "s05c02w04": 0.5,
+        "s05c02w05": 0.5,
+        "s05c02w06": 0.5,
+        "s05c02w07": 0.5,
+        "s05c02w08": 0.5,
+        "s05c02w09": 0.5,
+        "s05c02w10": 0.5,
+        "s05c02w11": 0.5,
+        "s05c03w00": 0.5,
+        "s05c03w01": 0.5,
+        "s05c03w02": 0.5,
+        "s05c03w03": 0.5,
+        "s05c03w04": 0.5,
+        "s05c03w05": 0.5,
+        "s05c03w06": 0.5,
+        "s05c03w07": 0.5,
+        "s05c03w08": 0.5,
+        "s05c03w09": 0.5,
+        "s05c03w10": 0.5,
+        "s05c03w11": 0.5,
+        "s05c04w00": 0.5,
+        "s05c04w01": 0.5,
+        "s05c04w02": 0.5,
+        "s05c04w03": 0.5,
+        "s05c04w04": 0.5,
+        "s05c04w05": 0.5,
+        "s05c04w06": 0.5,
+        "s05c04w07": 0.5,
+        "s05c04w08": 0.5,
+        "s05c04w09": 0.5,
+        "s05c04w10": 0.5,
+        "s05c04w11": 0.5,
+        "s05c05w00": 0.5,
+        "s05c05w01": 0.5,
+        "s05c05w02": 0.5,
+        "s05c05w03": 0.5,
+        "s05c05w04": 0.5,
+        "s05c05w05": 0.5,
+        "s05c05w06": 0.5,
+        "s05c05w07": 0.5,
+        "s05c05w08": 0.5,
+        "s05c05w09": 0.5,
+        "s05c05w10": 0.5,
+        "s05c05w11": 0.5,
+        "s05c06w00": 0.5,
+        "s05c06w01": 0.5,
+        "s05c06w02": 0.5,
+        "s05c06w03": 0.5,
+        "s05c06w04": 0.5,
+        "s05c06w05": 0.5,
+        "s05c06w06": 0.5,
+        "s05c06w07": 0.5,
+        "s05c06w08": 0.5,
+        "s05c06w09": 0.5,
+        "s05c06w10": 0.5,
+        "s05c06w11": 0.5,
+        "s05c07w00": 0.5,
+        "s05c07w01": 0.5,
+        "s05c07w02": 0.5,
+        "s05c07w03": 0.5,
+        "s05c07w04": 0.5,
+        "s05c07w05": 0.5,
+        "s05c07w06": 0.5,
+        "s05c07w07": 0.5,
+        "s05c07w08": 0.5,
+        "s05c07w09": 0.5,
+        "s05c07w10": 0.5,
+        "s05c07w11": 0.5,
+        "s05c08w00": 0.5,
+        "s05c08w01": 0.5,
+        "s05c08w02": 0.5,
+        "s05c08w03": 0.5,
+        "s05c08w04": 0.5,
+        "s05c08w05": 0.5,
+        "s05c08w06": 0.5,
+        "s05c08w07": 0.5,
+        "s05c08w08": 0.5,
+        "s05c08w09": 0.5,
+        "s05c08w10": 0.5,
+        "s05c08w11": 0.5,
+        "s05c09w00": 0.5,
+        "s05c09w01": 0.5,
+        "s05c09w02": 0.5,
+        "s05c09w03": 0.5,
+        "s05c09w04": 0.5,
+        "s05c09w05": 0.5,
+        "s05c09w06": 0.5,
+        "s05c09w07": 0.5,
+        "s05c09w08": 0.5,
+        "s05c09w09": 0.5,
+        "s05c09w10": 0.5,
+        "s05c09w11": 0.5,
+        "s05c10w00": 0.5,
+        "s05c10w01": 0.5,
+        "s05c10w02": 0.5,
+        "s05c10w03": 0.5,
+        "s05c10w04": 0.5,
+        "s05c10w05": 0.5,
+        "s05c10w06": 0.5,
+        "s05c10w07": 0.5,
+        "s05c10w08": 0.5,
+        "s05c10w09": 0.5,
+        "s05c10w10": 0.5,
+        "s05c10w11": 0.5,
+        "s05c11w00": 0.5,
+        "s05c11w01": 0.5,
+        "s05c11w02": 0.5,
+        "s05c11w03": 0.5,
+        "s05c11w04": 0.5,
+        "s05c11w05": 0.5,
+        "s05c11w06": 0.5,
+        "s05c11w07": 0.5,
+        "s05c11w08": 0.5,
+        "s05c11w09": 0.5,
+        "s05c11w10": 0.5,
+        "s05c11w11": 0.5,
+        "s06c00w00": 0.5,
+        "s06c00w01": 0.5,
+        "s06c00w02": 0.5,
+        "s06c00w03": 0.5,
+        "s06c00w04": 0.5,
+        "s06c00w05": 0.5,
+        "s06c00w06": 0.5,
+        "s06c00w07": 0.5,
+        "s06c00w08": 0.5,
+        "s06c00w09": 0.5,
+        "s06c00w10": 0.5,
+        "s06c00w11": 0.5,
+        "s06c01w00": 0.5,
+        "s06c01w01": 0.5,
+        "s06c01w02": 0.5,
+        "s06c01w03": 0.5,
+        "s06c01w04": 0.5,
+        "s06c01w05": 0.5,
+        "s06c01w06": 0.5,
+        "s06c01w07": 0.5,
+        "s06c01w08": 0.5,
+        "s06c01w09": 0.5,
+        "s06c01w10": 0.5,
+        "s06c01w11": 0.5,
+        "s06c02w00": 0.5,
+        "s06c02w01": 0.5,
+        "s06c02w02": 0.5,
+        "s06c02w03": 0.5,
+        "s06c02w04": 0.5,
+        "s06c02w05": 0.5,
+        "s06c02w06": 0.5,
+        "s06c02w07": 0.5,
+        "s06c02w08": 0.5,
+        "s06c02w09": 0.5,
+        "s06c02w10": 0.5,
+        "s06c02w11": 0.5,
+        "s06c03w00": 0.5,
+        "s06c03w01": 0.5,
+        "s06c03w02": 0.5,
+        "s06c03w03": 0.5,
+        "s06c03w04": 0.5,
+        "s06c03w05": 0.5,
+        "s06c03w06": 0.5,
+        "s06c03w07": 0.5,
+        "s06c03w08": 0.5,
+        "s06c03w09": 0.5,
+        "s06c03w10": 0.5,
+        "s06c03w11": 0.5,
+        "s06c04w00": 0.5,
+        "s06c04w01": 0.5,
+        "s06c04w02": 0.5,
+        "s06c04w03": 0.5,
+        "s06c04w04": 0.5,
+        "s06c04w05": 0.5,
+        "s06c04w06": 0.5,
+        "s06c04w07": 0.5,
+        "s06c04w08": 0.5,
+        "s06c04w09": 0.5,
+        "s06c04w10": 0.5,
+        "s06c04w11": 0.5,
+        "s06c05w00": 0.5,
+        "s06c05w01": 0.5,
+        "s06c05w02": 0.5,
+        "s06c05w03": 0.5,
+        "s06c05w04": 0.5,
+        "s06c05w05": 0.5,
+        "s06c05w06": 0.5,
+        "s06c05w07": 0.5,
+        "s06c05w08": 0.5,
+        "s06c05w09": 0.5,
+        "s06c05w10": 0.5,
+        "s06c05w11": 0.5,
+        "s06c06w00": 0.5,
+        "s06c06w01": 0.5,
+        "s06c06w02": 0.5,
+        "s06c06w03": 0.5,
+        "s06c06w04": 0.5,
+        "s06c06w05": 0.5,
+        "s06c06w06": 0.5,
+        "s06c06w07": 0.5,
+        "s06c06w08": 0.5,
+        "s06c06w09": 0.5,
+        "s06c06w10": 0.5,
+        "s06c06w11": 0.5,
+        "s06c07w00": 0.5,
+        "s06c07w01": 0.5,
+        "s06c07w02": 0.5,
+        "s06c07w03": 0.5,
+        "s06c07w04": 0.5,
+        "s06c07w05": 0.5,
+        "s06c07w06": 0.5,
+        "s06c07w07": 0.5,
+        "s06c07w08": 0.5,
+        "s06c07w09": 0.5,
+        "s06c07w10": 0.5,
+        "s06c07w11": 0.5,
+        "s06c08w00": 0.5,
+        "s06c08w01": 0.5,
+        "s06c08w02": 0.5,
+        "s06c08w03": 0.5,
+        "s06c08w04": 0.5,
+        "s06c08w05": 0.5,
+        "s06c08w06": 0.5,
+        "s06c08w07": 0.5,
+        "s06c08w08": 0.5,
+        "s06c08w09": 0.5,
+        "s06c08w10": 0.5,
+        "s06c08w11": 0.5,
+        "s06c09w00": 0.5,
+        "s06c09w01": 0.5,
+        "s06c09w02": 0.5,
+        "s06c09w03": 0.5,
+        "s06c09w04": 0.5,
+        "s06c09w05": 0.5,
+        "s06c09w06": 0.5,
+        "s06c09w07": 0.5,
+        "s06c09w08": 0.5,
+        "s06c09w09": 0.5,
+        "s06c09w10": 0.5,
+        "s06c09w11": 0.5,
+        "s06c10w00": 0.5,
+        "s06c10w01": 0.5,
+        "s06c10w02": 0.5,
+        "s06c10w03": 0.5,
+        "s06c10w04": 0.5,
+        "s06c10w05": 0.5,
+        "s06c10w06": 0.5,
+        "s06c10w07": 0.5,
+        "s06c10w08": 0.5,
+        "s06c10w09": 0.5,
+        "s06c10w10": 0.5,
+        "s06c10w11": 0.5,
+        "s06c11w00": 0.5,
+        "s06c11w01": 0.5,
+        "s06c11w02": 0.5,
+        "s06c11w03": 0.5,
+        "s06c11w04": 0.5,
+        "s06c11w05": 0.5,
+        "s06c11w06": 0.5,
+        "s06c11w07": 0.5,
+        "s06c11w08": 0.5,
+        "s06c11w09": 0.5,
+        "s06c11w10": 0.5,
+        "s06c11w11": 0.5,
+        "s07c00w00": 0.5,
+        "s07c00w01": 0.5,
+        "s07c00w02": 0.5,
+        "s07c00w03": 0.5,
+        "s07c00w04": 0.5,
+        "s07c00w05": 0.5,
+        "s07c00w06": 0.5,
+        "s07c00w07": 0.5,
+        "s07c00w08": 0.5,
+        "s07c00w09": 0.5,
+        "s07c00w10": 0.5,
+        "s07c00w11": 0.5,
+        "s07c01w00": 0.5,
+        "s07c01w01": 0.5,
+        "s07c01w02": 0.5,
+        "s07c01w03": 0.5,
+        "s07c01w04": 0.5,
+        "s07c01w05": 0.5,
+        "s07c01w06": 0.5,
+        "s07c01w07": 0.5,
+        "s07c01w08": 0.5,
+        "s07c01w09": 0.5,
+        "s07c01w10": 0.5,
+        "s07c01w11": 0.5,
+        "s07c02w00": 0.5,
+        "s07c02w01": 0.5,
+        "s07c02w02": 0.5,
+        "s07c02w03": 0.5,
+        "s07c02w04": 0.5,
+        "s07c02w05": 0.5,
+        "s07c02w06": 0.5,
+        "s07c02w07": 0.5,
+        "s07c02w08": 0.5,
+        "s07c02w09": 0.5,
+        "s07c02w10": 0.5,
+        "s07c02w11": 0.5,
+        "s07c03w00": 0.5,
+        "s07c03w01": 0.5,
+        "s07c03w02": 0.5,
+        "s07c03w03": 0.5,
+        "s07c03w04": 0.5,
+        "s07c03w05": 0.5,
+        "s07c03w06": 0.5,
+        "s07c03w07": 0.5,
+        "s07c03w08": 0.5,
+        "s07c03w09": 0.5,
+        "s07c03w10": 0.5,
+        "s07c03w11": 0.5,
+        "s07c04w00": 0.5,
+        "s07c04w01": 0.5,
+        "s07c04w02": 0.5,
+        "s07c04w03": 0.5,
+        "s07c04w04": 0.5,
+        "s07c04w05": 0.5,
+        "s07c04w06": 0.5,
+        "s07c04w07": 0.5,
+        "s07c04w08": 0.5,
+        "s07c04w09": 0.5,
+        "s07c04w10": 0.5,
+        "s07c04w11": 0.5,
+        "s07c05w00": 0.5,
+        "s07c05w01": 0.5,
+        "s07c05w02": 0.5,
+        "s07c05w03": 0.5,
+        "s07c05w04": 0.5,
+        "s07c05w05": 0.5,
+        "s07c05w06": 0.5,
+        "s07c05w07": 0.5,
+        "s07c05w08": 0.5,
+        "s07c05w09": 0.5,
+        "s07c05w10": 0.5,
+        "s07c05w11": 0.5,
+        "s07c06w00": 0.5,
+        "s07c06w01": 0.5,
+        "s07c06w02": 0.5,
+        "s07c06w03": 0.5,
+        "s07c06w04": 0.5,
+        "s07c06w05": 0.5,
+        "s07c06w06": 0.5,
+        "s07c06w07": 0.5,
+        "s07c06w08": 0.5,
+        "s07c06w09": 0.5,
+        "s07c06w10": 0.5,
+        "s07c06w11": 0.5,
+        "s07c07w00": 0.5,
+        "s07c07w01": 0.5,
+        "s07c07w02": 0.5,
+        "s07c07w03": 0.5,
+        "s07c07w04": 0.5,
+        "s07c07w05": 0.5,
+        "s07c07w06": 0.5,
+        "s07c07w07": 0.5,
+        "s07c07w08": 0.5,
+        "s07c07w09": 0.5,
+        "s07c07w10": 0.5,
+        "s07c07w11": 0.5,
+        "s07c08w00": 0.5,
+        "s07c08w01": 0.5,
+        "s07c08w02": 0.5,
+        "s07c08w03": 0.5,
+        "s07c08w04": 0.5,
+        "s07c08w05": 0.5,
+        "s07c08w06": 0.5,
+        "s07c08w07": 0.5,
+        "s07c08w08": 0.5,
+        "s07c08w09": 0.5,
+        "s07c08w10": 0.5,
+        "s07c08w11": 0.5,
+        "s07c09w00": 0.5,
+        "s07c09w01": 0.5,
+        "s07c09w02": 0.5,
+        "s07c09w03": 0.5,
+        "s07c09w04": 0.5,
+        "s07c09w05": 0.5,
+        "s07c09w06": 0.5,
+        "s07c09w07": 0.5,
+        "s07c09w08": 0.5,
+        "s07c09w09": 0.5,
+        "s07c09w10": 0.5,
+        "s07c09w11": 0.5,
+        "s07c10w00": 0.5,
+        "s07c10w01": 0.5,
+        "s07c10w02": 0.5,
+        "s07c10w03": 0.5,
+        "s07c10w04": 0.5,
+        "s07c10w05": 0.5,
+        "s07c10w06": 0.5,
+        "s07c10w07": 0.5,
+        "s07c10w08": 0.5,
+        "s07c10w09": 0.5,
+        "s07c10w10": 0.5,
+        "s07c10w11": 0.5,
+        "s07c11w00": 0.5,
+        "s07c11w01": 0.5,
+        "s07c11w02": 0.5,
+        "s07c11w03": 0.5,
+        "s07c11w04": 0.5,
+        "s07c11w05": 0.5,
+        "s07c11w06": 0.5,
+        "s07c11w07": 0.5,
+        "s07c11w08": 0.5,
+        "s07c11w09": 0.5,
+        "s07c11w10": 0.5,
+        "s07c11w11": 0.5,
+        "s08c00w00": 0.5,
+        "s08c00w01": 0.5,
+        "s08c00w02": 0.5,
+        "s08c00w03": 0.5,
+        "s08c00w04": 0.5,
+        "s08c00w05": 0.5,
+        "s08c00w06": 0.5,
+        "s08c00w07": 0.5,
+        "s08c00w08": 0.5,
+        "s08c00w09": 0.5,
+        "s08c00w10": 0.5,
+        "s08c00w11": 0.5,
+        "s08c01w00": 0.5,
+        "s08c01w01": 0.5,
+        "s08c01w02": 0.5,
+        "s08c01w03": 0.5,
+        "s08c01w04": 0.5,
+        "s08c01w05": 0.5,
+        "s08c01w06": 0.5,
+        "s08c01w07": 0.5,
+        "s08c01w08": 0.5,
+        "s08c01w09": 0.5,
+        "s08c01w10": 0.5,
+        "s08c01w11": 0.5,
+        "s08c02w00": 0.5,
+        "s08c02w01": 0.5,
+        "s08c02w02": 0.5,
+        "s08c02w03": 0.5,
+        "s08c02w04": 0.5,
+        "s08c02w05": 0.5,
+        "s08c02w06": 0.5,
+        "s08c02w07": 0.5,
+        "s08c02w08": 0.5,
+        "s08c02w09": 0.5,
+        "s08c02w10": 0.5,
+        "s08c02w11": 0.5,
+        "s08c03w00": 0.5,
+        "s08c03w01": 0.5,
+        "s08c03w02": 0.5,
+        "s08c03w03": 0.5,
+        "s08c03w04": 0.5,
+        "s08c03w05": 0.5,
+        "s08c03w06": 0.5,
+        "s08c03w07": 0.5,
+        "s08c03w08": 0.5,
+        "s08c03w09": 0.5,
+        "s08c03w10": 0.5,
+        "s08c03w11": 0.5,
+        "s08c04w00": 0.5,
+        "s08c04w01": 0.5,
+        "s08c04w02": 0.5,
+        "s08c04w03": 0.5,
+        "s08c04w04": 0.5,
+        "s08c04w05": 0.5,
+        "s08c04w06": 0.5,
+        "s08c04w07": 0.5,
+        "s08c04w08": 0.5,
+        "s08c04w09": 0.5,
+        "s08c04w10": 0.5,
+        "s08c04w11": 0.5,
+        "s08c05w00": 0.5,
+        "s08c05w01": 0.5,
+        "s08c05w02": 0.5,
+        "s08c05w03": 0.5,
+        "s08c05w04": 0.5,
+        "s08c05w05": 0.5,
+        "s08c05w06": 0.5,
+        "s08c05w07": 0.5,
+        "s08c05w08": 0.5,
+        "s08c05w09": 0.5,
+        "s08c05w10": 0.5,
+        "s08c05w11": 0.5,
+        "s08c06w00": 0.5,
+        "s08c06w01": 0.5,
+        "s08c06w02": 0.5,
+        "s08c06w03": 0.5,
+        "s08c06w04": 0.5,
+        "s08c06w05": 0.5,
+        "s08c06w06": 0.5,
+        "s08c06w07": 0.5,
+        "s08c06w08": 0.5,
+        "s08c06w09": 0.5,
+        "s08c06w10": 0.5,
+        "s08c06w11": 0.5,
+        "s08c07w00": 0.5,
+        "s08c07w01": 0.5,
+        "s08c07w02": 0.5,
+        "s08c07w03": 0.5,
+        "s08c07w04": 0.5,
+        "s08c07w05": 0.5,
+        "s08c07w06": 0.5,
+        "s08c07w07": 0.5,
+        "s08c07w08": 0.5,
+        "s08c07w09": 0.5,
+        "s08c07w10": 0.5,
+        "s08c07w11": 0.5,
+        "s08c08w00": 0.5,
+        "s08c08w01": 0.5,
+        "s08c08w02": 0.5,
+        "s08c08w03": 0.5,
+        "s08c08w04": 0.5,
+        "s08c08w05": 0.5,
+        "s08c08w06": 0.5,
+        "s08c08w07": 0.5,
+        "s08c08w08": 0.5,
+        "s08c08w09": 0.5,
+        "s08c08w10": 0.5,
+        "s08c08w11": 0.5,
+        "s08c09w00": 0.5,
+        "s08c09w01": 0.5,
+        "s08c09w02": 0.5,
+        "s08c09w03": 0.5,
+        "s08c09w04": 0.5,
+        "s08c09w05": 0.5,
+        "s08c09w06": 0.5,
+        "s08c09w07": 0.5,
+        "s08c09w08": 0.5,
+        "s08c09w09": 0.5,
+        "s08c09w10": 0.5,
+        "s08c09w11": 0.5,
+        "s08c10w00": 0.5,
+        "s08c10w01": 0.5,
+        "s08c10w02": 0.5,
+        "s08c10w03": 0.5,
+        "s08c10w04": 0.5,
+        "s08c10w05": 0.5,
+        "s08c10w06": 0.5,
+        "s08c10w07": 0.5,
+        "s08c10w08": 0.5,
+        "s08c10w09": 0.5,
+        "s08c10w10": 0.5,
+        "s08c10w11": 0.5,
+        "s08c11w00": 0.5,
+        "s08c11w01": 0.5,
+        "s08c11w02": 0.5,
+        "s08c11w03": 0.5,
+        "s08c11w04": 0.5,
+        "s08c11w05": 0.5,
+        "s08c11w06": 0.5,
+        "s08c11w07": 0.5,
+        "s08c11w08": 0.5,
+        "s08c11w09": 0.5,
+        "s08c11w10": 0.5,
+        "s08c11w11": 0.5,
+        "s09c00w00": 0.5,
+        "s09c00w01": 0.5,
+        "s09c00w02": 0.5,
+        "s09c00w03": 0.5,
+        "s09c00w04": 0.5,
+        "s09c00w05": 0.5,
+        "s09c00w06": 0.5,
+        "s09c00w07": 0.5,
+        "s09c00w08": 0.5,
+        "s09c00w09": 0.5,
+        "s09c00w10": 0.5,
+        "s09c00w11": 0.5,
+        "s09c01w00": 0.5,
+        "s09c01w01": 0.5,
+        "s09c01w02": 0.5,
+        "s09c01w03": 0.5,
+        "s09c01w04": 0.5,
+        "s09c01w05": 0.5,
+        "s09c01w06": 0.5,
+        "s09c01w07": 0.5,
+        "s09c01w08": 0.5,
+        "s09c01w09": 0.5,
+        "s09c01w10": 0.5,
+        "s09c01w11": 0.5,
+        "s09c02w00": 0.5,
+        "s09c02w01": 0.5,
+        "s09c02w02": 0.5,
+        "s09c02w03": 0.5,
+        "s09c02w04": 0.5,
+        "s09c02w05": 0.5,
+        "s09c02w06": 0.5,
+        "s09c02w07": 0.5,
+        "s09c02w08": 0.5,
+        "s09c02w09": 0.5,
+        "s09c02w10": 0.5,
+        "s09c02w11": 0.5,
+        "s09c03w00": 0.5,
+        "s09c03w01": 0.5,
+        "s09c03w02": 0.5,
+        "s09c03w03": 0.5,
+        "s09c03w04": 0.5,
+        "s09c03w05": 0.5,
+        "s09c03w06": 0.5,
+        "s09c03w07": 0.5,
+        "s09c03w08": 0.5,
+        "s09c03w09": 0.5,
+        "s09c03w10": 0.5,
+        "s09c03w11": 0.5,
+        "s09c04w00": 0.5,
+        "s09c04w01": 0.5,
+        "s09c04w02": 0.5,
+        "s09c04w03": 0.5,
+        "s09c04w04": 0.5,
+        "s09c04w05": 0.5,
+        "s09c04w06": 0.5,
+        "s09c04w07": 0.5,
+        "s09c04w08": 0.5,
+        "s09c04w09": 0.5,
+        "s09c04w10": 0.5,
+        "s09c04w11": 0.5,
+        "s09c05w00": 0.5,
+        "s09c05w01": 0.5,
+        "s09c05w02": 0.5,
+        "s09c05w03": 0.5,
+        "s09c05w04": 0.5,
+        "s09c05w05": 0.5,
+        "s09c05w06": 0.5,
+        "s09c05w07": 0.5,
+        "s09c05w08": 0.5,
+        "s09c05w09": 0.5,
+        "s09c05w10": 0.5,
+        "s09c05w11": 0.5,
+        "s09c06w00": 0.5,
+        "s09c06w01": 0.5,
+        "s09c06w02": 0.5,
+        "s09c06w03": 0.5,
+        "s09c06w04": 0.5,
+        "s09c06w05": 0.5,
+        "s09c06w06": 0.5,
+        "s09c06w07": 0.5,
+        "s09c06w08": 0.5,
+        "s09c06w09": 0.5,
+        "s09c06w10": 0.5,
+        "s09c06w11": 0.5,
+        "s09c07w00": 0.5,
+        "s09c07w01": 0.5,
+        "s09c07w02": 0.5,
+        "s09c07w03": 0.5,
+        "s09c07w04": 0.5,
+        "s09c07w05": 0.5,
+        "s09c07w06": 0.5,
+        "s09c07w07": 0.5,
+        "s09c07w08": 0.5,
+        "s09c07w09": 0.5,
+        "s09c07w10": 0.5,
+        "s09c07w11": 0.5,
+        "s09c08w00": 0.5,
+        "s09c08w01": 0.5,
+        "s09c08w02": 0.5,
+        "s09c08w03": 0.5,
+        "s09c08w04": 0.5,
+        "s09c08w05": 0.5,
+        "s09c08w06": 0.5,
+        "s09c08w07": 0.5,
+        "s09c08w08": 0.5,
+        "s09c08w09": 0.5,
+        "s09c08w10": 0.5,
+        "s09c08w11": 0.5,
+        "s09c09w00": 0.5,
+        "s09c09w01": 0.5,
+        "s09c09w02": 0.5,
+        "s09c09w03": 0.5,
+        "s09c09w04": 0.5,
+        "s09c09w05": 0.5,
+        "s09c09w06": 0.5,
+        "s09c09w07": 0.5,
+        "s09c09w08": 0.5,
+        "s09c09w09": 0.5,
+        "s09c09w10": 0.5,
+        "s09c09w11": 0.5,
+        "s09c10w00": 0.5,
+        "s09c10w01": 0.5,
+        "s09c10w02": 0.5,
+        "s09c10w03": 0.5,
+        "s09c10w04": 0.5,
+        "s09c10w05": 0.5,
+        "s09c10w06": 0.5,
+        "s09c10w07": 0.5,
+        "s09c10w08": 0.5,
+        "s09c10w09": 0.5,
+        "s09c10w10": 0.5,
+        "s09c10w11": 0.5,
+        "s09c11w00": 0.5,
+        "s09c11w01": 0.5,
+        "s09c11w02": 0.5,
+        "s09c11w03": 0.5,
+        "s09c11w04": 0.5,
+        "s09c11w05": 0.5,
+        "s09c11w06": 0.5,
+        "s09c11w07": 0.5,
+        "s09c11w08": 0.5,
+        "s09c11w09": 0.5,
+        "s09c11w10": 0.5,
+        "s09c11w11": 0.5,
+        "s10c00w00": 0.5,
+        "s10c00w01": 0.5,
+        "s10c00w02": 0.5,
+        "s10c00w03": 0.5,
+        "s10c00w04": 0.5,
+        "s10c00w05": 0.5,
+        "s10c00w06": 0.5,
+        "s10c00w07": 0.5,
+        "s10c00w08": 0.5,
+        "s10c00w09": 0.5,
+        "s10c00w10": 0.5,
+        "s10c00w11": 0.5,
+        "s10c01w00": 0.5,
+        "s10c01w01": 0.5,
+        "s10c01w02": 0.5,
+        "s10c01w03": 0.5,
+        "s10c01w04": 0.5,
+        "s10c01w05": 0.5,
+        "s10c01w06": 0.5,
+        "s10c01w07": 0.5,
+        "s10c01w08": 0.5,
+        "s10c01w09": 0.5,
+        "s10c01w10": 0.5,
+        "s10c01w11": 0.5,
+        "s10c02w00": 0.5,
+        "s10c02w01": 0.5,
+        "s10c02w02": 0.5,
+        "s10c02w03": 0.5,
+        "s10c02w04": 0.5,
+        "s10c02w05": 0.5,
+        "s10c02w06": 0.5,
+        "s10c02w07": 0.5,
+        "s10c02w08": 0.5,
+        "s10c02w09": 0.5,
+        "s10c02w10": 0.5,
+        "s10c02w11": 0.5,
+        "s10c03w00": 0.5,
+        "s10c03w01": 0.5,
+        "s10c03w02": 0.5,
+        "s10c03w03": 0.5,
+        "s10c03w04": 0.5,
+        "s10c03w05": 0.5,
+        "s10c03w06": 0.5,
+        "s10c03w07": 0.5,
+        "s10c03w08": 0.5,
+        "s10c03w09": 0.5,
+        "s10c03w10": 0.5,
+        "s10c03w11": 0.5,
+        "s10c04w00": 0.5,
+        "s10c04w01": 0.5,
+        "s10c04w02": 0.5,
+        "s10c04w03": 0.5,
+        "s10c04w04": 0.5,
+        "s10c04w05": 0.5,
+        "s10c04w06": 0.5,
+        "s10c04w07": 0.5,
+        "s10c04w08": 0.5,
+        "s10c04w09": 0.5,
+        "s10c04w10": 0.5,
+        "s10c04w11": 0.5,
+        "s10c05w00": 0.5,
+        "s10c05w01": 0.5,
+        "s10c05w02": 0.5,
+        "s10c05w03": 0.5,
+        "s10c05w04": 0.5,
+        "s10c05w05": 0.5,
+        "s10c05w06": 0.5,
+        "s10c05w07": 0.5,
+        "s10c05w08": 0.5,
+        "s10c05w09": 0.5,
+        "s10c05w10": 0.5,
+        "s10c05w11": 0.5,
+        "s10c06w00": 0.5,
+        "s10c06w01": 0.5,
+        "s10c06w02": 0.5,
+        "s10c06w03": 0.5,
+        "s10c06w04": 0.5,
+        "s10c06w05": 0.5,
+        "s10c06w06": 0.5,
+        "s10c06w07": 0.5,
+        "s10c06w08": 0.5,
+        "s10c06w09": 0.5,
+        "s10c06w10": 0.5,
+        "s10c06w11": 0.5,
+        "s10c07w00": 0.5,
+        "s10c07w01": 0.5,
+        "s10c07w02": 0.5,
+        "s10c07w03": 0.5,
+        "s10c07w04": 0.5,
+        "s10c07w05": 0.5,
+        "s10c07w06": 0.5,
+        "s10c07w07": 0.5,
+        "s10c07w08": 0.5,
+        "s10c07w09": 0.5,
+        "s10c07w10": 0.5,
+        "s10c07w11": 0.5,
+        "s10c08w00": 0.5,
+        "s10c08w01": 0.5,
+        "s10c08w02": 0.5,
+        "s10c08w03": 0.5,
+        "s10c08w04": 0.5,
+        "s10c08w05": 0.5,
+        "s10c08w06": 0.5,
+        "s10c08w07": 0.5,
+        "s10c08w08": 0.5,
+        "s10c08w09": 0.5,
+        "s10c08w10": 0.5,
+        "s10c08w11": 0.5,
+        "s10c09w00": 0.5,
+        "s10c09w01": 0.5,
+        "s10c09w02": 0.5,
+        "s10c09w03": 0.5,
+        "s10c09w04": 0.5,
+        "s10c09w05": 0.5,
+        "s10c09w06": 0.5,
+        "s10c09w07": 0.5,
+        "s10c09w08": 0.5,
+        "s10c09w09": 0.5,
+        "s10c09w10": 0.5,
+        "s10c09w11": 0.5,
+        "s10c10w00": 0.5,
+        "s10c10w01": 0.5,
+        "s10c10w02": 0.5,
+        "s10c10w03": 0.5,
+        "s10c10w04": 0.5,
+        "s10c10w05": 0.5,
+        "s10c10w06": 0.5,
+        "s10c10w07": 0.5,
+        "s10c10w08": 0.5,
+        "s10c10w09": 0.5,
+        "s10c10w10": 0.5,
+        "s10c10w11": 0.5,
+        "s10c11w00": 0.5,
+        "s10c11w01": 0.5,
+        "s10c11w02": 0.5,
+        "s10c11w03": 0.5,
+        "s10c11w04": 0.5,
+        "s10c11w05": 0.5,
+        "s10c11w06": 0.5,
+        "s10c11w07": 0.5,
+        "s10c11w08": 0.5,
+        "s10c11w09": 0.5,
+        "s10c11w10": 0.5,
+        "s10c11w11": 0.5,
+        "s11c00w00": 0.5,
+        "s11c00w01": 0.5,
+        "s11c00w02": 0.5,
+        "s11c00w03": 0.5,
+        "s11c00w04": 0.5,
+        "s11c00w05": 0.5,
+        "s11c00w06": 0.5,
+        "s11c00w07": 0.5,
+        "s11c00w08": 0.5,
+        "s11c00w09": 0.5,
+        "s11c00w10": 0.5,
+        "s11c00w11": 0.5,
+        "s11c01w00": 0.5,
+        "s11c01w01": 0.5,
+        "s11c01w02": 0.5,
+        "s11c01w03": 0.5,
+        "s11c01w04": 0.5,
+        "s11c01w05": 0.5,
+        "s11c01w06": 0.5,
+        "s11c01w07": 0.5,
+        "s11c01w08": 0.5,
+        "s11c01w09": 0.5,
+        "s11c01w10": 0.5,
+        "s11c01w11": 0.5,
+        "s11c02w00": 0.5,
+        "s11c02w01": 0.5,
+        "s11c02w02": 0.5,
+        "s11c02w03": 0.5,
+        "s11c02w04": 0.5,
+        "s11c02w05": 0.5,
+        "s11c02w06": 0.5,
+        "s11c02w07": 0.5,
+        "s11c02w08": 0.5,
+        "s11c02w09": 0.5,
+        "s11c02w10": 0.5,
+        "s11c02w11": 0.5,
+        "s11c03w00": 0.5,
+        "s11c03w01": 0.5,
+        "s11c03w02": 0.5,
+        "s11c03w03": 0.5,
+        "s11c03w04": 0.5,
+        "s11c03w05": 0.5,
+        "s11c03w06": 0.5,
+        "s11c03w07": 0.5,
+        "s11c03w08": 0.5,
+        "s11c03w09": 0.5,
+        "s11c03w10": 0.5,
+        "s11c03w11": 0.5,
+        "s11c04w00": 0.5,
+        "s11c04w01": 0.5,
+        "s11c04w02": 0.5,
+        "s11c04w03": 0.5,
+        "s11c04w04": 0.5,
+        "s11c04w05": 0.5,
+        "s11c04w06": 0.5,
+        "s11c04w07": 0.5,
+        "s11c04w08": 0.5,
+        "s11c04w09": 0.5,
+        "s11c04w10": 0.5,
+        "s11c04w11": 0.5,
+        "s11c05w00": 0.5,
+        "s11c05w01": 0.5,
+        "s11c05w02": 0.5,
+        "s11c05w03": 0.5,
+        "s11c05w04": 0.5,
+        "s11c05w05": 0.5,
+        "s11c05w06": 0.5,
+        "s11c05w07": 0.5,
+        "s11c05w08": 0.5,
+        "s11c05w09": 0.5,
+        "s11c05w10": 0.5,
+        "s11c05w11": 0.5,
+        "s11c06w00": 0.5,
+        "s11c06w01": 0.5,
+        "s11c06w02": 0.5,
+        "s11c06w03": 0.5,
+        "s11c06w04": 0.5,
+        "s11c06w05": 0.5,
+        "s11c06w06": 0.5,
+        "s11c06w07": 0.5,
+        "s11c06w08": 0.5,
+        "s11c06w09": 0.5,
+        "s11c06w10": 0.5,
+        "s11c06w11": 0.5,
+        "s11c07w00": 0.5,
+        "s11c07w01": 0.5,
+        "s11c07w02": 0.5,
+        "s11c07w03": 0.5,
+        "s11c07w04": 0.5,
+        "s11c07w05": 0.5,
+        "s11c07w06": 0.5,
+        "s11c07w07": 0.5,
+        "s11c07w08": 0.5,
+        "s11c07w09": 0.5,
+        "s11c07w10": 0.5,
+        "s11c07w11": 0.5,
+        "s11c08w00": 0.5,
+        "s11c08w01": 0.5,
+        "s11c08w02": 0.5,
+        "s11c08w03": 0.5,
+        "s11c08w04": 0.5,
+        "s11c08w05": 0.5,
+        "s11c08w06": 0.5,
+        "s11c08w07": 0.5,
+        "s11c08w08": 0.5,
+        "s11c08w09": 0.5,
+        "s11c08w10": 0.5,
+        "s11c08w11": 0.5,
+        "s11c09w00": 0.5,
+        "s11c09w01": 0.5,
+        "s11c09w02": 0.5,
+        "s11c09w03": 0.5,
+        "s11c09w04": 0.5,
+        "s11c09w05": 0.5,
+        "s11c09w06": 0.5,
+        "s11c09w07": 0.5,
+        "s11c09w08": 0.5,
+        "s11c09w09": 0.5,
+        "s11c09w10": 0.5,
+        "s11c09w11": 0.5,
+        "s11c10w00": 0.5,
+        "s11c10w01": 0.5,
+        "s11c10w02": 0.5,
+        "s11c10w03": 0.5,
+        "s11c10w04": 0.5,
+        "s11c10w05": 0.5,
+        "s11c10w06": 0.5,
+        "s11c10w07": 0.5,
+        "s11c10w08": 0.5,
+        "s11c10w09": 0.5,
+        "s11c10w10": 0.5,
+        "s11c10w11": 0.5,
+        "s11c11w00": 0.5,
+        "s11c11w01": 0.5,
+        "s11c11w02": 0.5,
+        "s11c11w03": 0.5,
+        "s11c11w04": 0.5,
+        "s11c11w05": 0.5,
+        "s11c11w06": 0.5,
+        "s11c11w07": 0.5,
+        "s11c11w08": 0.5,
+        "s11c11w09": 0.5,
+        "s11c11w10": 0.5,
+        "s11c11w11": 0.5,
+        "s12c00w00": 0.5,
+        "s12c00w01": 0.5,
+        "s12c00w02": 0.5,
+        "s12c00w03": 0.5,
+        "s12c00w04": 0.5,
+        "s12c00w05": 0.5,
+        "s12c00w06": 0.5,
+        "s12c00w07": 0.5,
+        "s12c00w08": 0.5,
+        "s12c00w09": 0.5,
+        "s12c00w10": 0.5,
+        "s12c00w11": 0.5,
+        "s12c01w00": 0.5,
+        "s12c01w01": 0.5,
+        "s12c01w02": 0.5,
+        "s12c01w03": 0.5,
+        "s12c01w04": 0.5,
+        "s12c01w05": 0.5,
+        "s12c01w06": 0.5,
+        "s12c01w07": 0.5,
+        "s12c01w08": 0.5,
+        "s12c01w09": 0.5,
+        "s12c01w10": 0.5,
+        "s12c01w11": 0.5,
+        "s12c02w00": 0.5,
+        "s12c02w01": 0.5,
+        "s12c02w02": 0.5,
+        "s12c02w03": 0.5,
+        "s12c02w04": 0.5,
+        "s12c02w05": 0.5,
+        "s12c02w06": 0.5,
+        "s12c02w07": 0.5,
+        "s12c02w08": 0.5,
+        "s12c02w09": 0.5,
+        "s12c02w10": 0.5,
+        "s12c02w11": 0.5,
+        "s12c03w00": 0.5,
+        "s12c03w01": 0.5,
+        "s12c03w02": 0.5,
+        "s12c03w03": 0.5,
+        "s12c03w04": 0.5,
+        "s12c03w05": 0.5,
+        "s12c03w06": 0.5,
+        "s12c03w07": 0.5,
+        "s12c03w08": 0.5,
+        "s12c03w09": 0.5,
+        "s12c03w10": 0.5,
+        "s12c03w11": 0.5,
+        "s12c04w00": 0.5,
+        "s12c04w01": 0.5,
+        "s12c04w02": 0.5,
+        "s12c04w03": 0.5,
+        "s12c04w04": 0.5,
+        "s12c04w05": 0.5,
+        "s12c04w06": 0.5,
+        "s12c04w07": 0.5,
+        "s12c04w08": 0.5,
+        "s12c04w09": 0.5,
+        "s12c04w10": 0.5,
+        "s12c04w11": 0.5,
+        "s12c05w00": 0.5,
+        "s12c05w01": 0.5,
+        "s12c05w02": 0.5,
+        "s12c05w03": 0.5,
+        "s12c05w04": 0.5,
+        "s12c05w05": 0.5,
+        "s12c05w06": 0.5,
+        "s12c05w07": 0.5,
+        "s12c05w08": 0.5,
+        "s12c05w09": 0.5,
+        "s12c05w10": 0.5,
+        "s12c05w11": 0.5,
+        "s12c06w00": 0.5,
+        "s12c06w01": 0.5,
+        "s12c06w02": 0.5,
+        "s12c06w03": 0.5,
+        "s12c06w04": 0.5,
+        "s12c06w05": 0.5,
+        "s12c06w06": 0.5,
+        "s12c06w07": 0.5,
+        "s12c06w08": 0.5,
+        "s12c06w09": 0.5,
+        "s12c06w10": 0.5,
+        "s12c06w11": 0.5,
+        "s12c07w00": 0.5,
+        "s12c07w01": 0.5,
+        "s12c07w02": 0.5,
+        "s12c07w03": 0.5,
+        "s12c07w04": 0.5,
+        "s12c07w05": 0.5,
+        "s12c07w06": 0.5,
+        "s12c07w07": 0.5,
+        "s12c07w08": 0.5,
+        "s12c07w09": 0.5,
+        "s12c07w10": 0.5,
+        "s12c07w11": 0.5,
+        "s12c08w00": 0.5,
+        "s12c08w01": 0.5,
+        "s12c08w02": 0.5,
+        "s12c08w03": 0.5,
+        "s12c08w04": 0.5,
+        "s12c08w05": 0.5,
+        "s12c08w06": 0.5,
+        "s12c08w07": 0.5,
+        "s12c08w08": 0.5,
+        "s12c08w09": 0.5,
+        "s12c08w10": 0.5,
+        "s12c08w11": 0.5,
+        "s12c09w00": 0.5,
+        "s12c09w01": 0.5,
+        "s12c09w02": 0.5,
+        "s12c09w03": 0.5,
+        "s12c09w04": 0.5,
+        "s12c09w05": 0.5,
+        "s12c09w06": 0.5,
+        "s12c09w07": 0.5,
+        "s12c09w08": 0.5,
+        "s12c09w09": 0.5,
+        "s12c09w10": 0.5,
+        "s12c09w11": 0.5,
+        "s12c10w00": 0.5,
+        "s12c10w01": 0.5,
+        "s12c10w02": 0.5,
+        "s12c10w03": 0.5,
+        "s12c10w04": 0.5,
+        "s12c10w05": 0.5,
+        "s12c10w06": 0.5,
+        "s12c10w07": 0.5,
+        "s12c10w08": 0.5,
+        "s12c10w09": 0.5,
+        "s12c10w10": 0.5,
+        "s12c10w11": 0.5,
+        "s12c11w00": 0.5,
+        "s12c11w01": 0.5,
+        "s12c11w02": 0.5,
+        "s12c11w03": 0.5,
+        "s12c11w04": 0.5,
+        "s12c11w05": 0.5,
+        "s12c11w06": 0.5,
+        "s12c11w07": 0.5,
+        "s12c11w08": 0.5,
+        "s12c11w09": 0.5,
+        "s12c11w10": 0.5,
+        "s12c11w11": 0.5
+      },
+      "pos": [
+        59,
+        1
+      ]
+    },
+    {
+      "id": 444,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Elements",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.150999963
+        },
+        {
+          "id": 1,
+          "value": 0.391500115
+        },
+        {
+          "id": 2,
+          "value": 0.0375000425
+        },
+        {
+          "id": 3,
+          "value": 0.603499889
+        },
+        {
+          "id": 4,
+          "value": -30.0
+        },
+        {
+          "id": 5,
+          "value": -1.99399996
+        },
+        {
+          "id": 6,
+          "value": 1.0
+        },
+        {
+          "id": 7,
+          "value": 0.567499995
+        },
+        {
+          "id": 8,
+          "value": 0.0604999065
+        },
+        {
+          "id": 9,
+          "value": 0.183499962
+        },
+        {
+          "id": 10,
+          "value": 0.194999963
+        },
+        {
+          "id": 11,
+          "value": 0.188000053
+        },
+        {
+          "id": 12,
+          "value": 0.399499863
+        },
+        {
+          "id": 13,
+          "value": 0.545000136
+        },
+        {
+          "id": 14,
+          "value": 0.280000001
+        },
+        {
+          "id": 15,
+          "value": 0.584000051
+        },
+        {
+          "id": 16,
+          "value": 1.68299985
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 438,
+      "rightModuleId": 417,
+      "data": {
+        "model": 0
+      },
+      "pos": [
+        68,
+        1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 632,
+      "outputModuleId": 416,
+      "outputId": 1,
+      "inputModuleId": 418,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 631,
+      "outputModuleId": 418,
+      "outputId": 0,
+      "inputModuleId": 413,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 633,
+      "outputModuleId": 416,
+      "outputId": 2,
+      "inputModuleId": 418,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "id": 645,
+      "outputModuleId": 416,
+      "outputId": 3,
+      "inputModuleId": 418,
+      "inputId": 6,
+      "color": "#0986ad"
+    },
+    {
+      "id": 650,
+      "outputModuleId": 413,
+      "outputId": 0,
+      "inputModuleId": 424,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 651,
+      "outputModuleId": 424,
+      "outputId": 0,
+      "inputModuleId": 417,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 655,
+      "outputModuleId": 418,
+      "outputId": 0,
+      "inputModuleId": 427,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 656,
+      "outputModuleId": 427,
+      "outputId": 0,
+      "inputModuleId": 424,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 657,
+      "outputModuleId": 427,
+      "outputId": 0,
+      "inputModuleId": 424,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 658,
+      "outputModuleId": 416,
+      "outputId": 1,
+      "inputModuleId": 428,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 660,
+      "outputModuleId": 428,
+      "outputId": 65,
+      "inputModuleId": 429,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 661,
+      "outputModuleId": 429,
+      "outputId": 0,
+      "inputModuleId": 431,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 664,
+      "outputModuleId": 428,
+      "outputId": 64,
+      "inputModuleId": 432,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 666,
+      "outputModuleId": 428,
+      "outputId": 65,
+      "inputModuleId": 433,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 668,
+      "outputModuleId": 434,
+      "outputId": 0,
+      "inputModuleId": 435,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 670,
+      "outputModuleId": 435,
+      "outputId": 0,
+      "inputModuleId": 417,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 648,
+      "outputModuleId": 417,
+      "outputId": 2,
+      "inputModuleId": 430,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 649,
+      "outputModuleId": 417,
+      "outputId": 3,
+      "inputModuleId": 430,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 671,
+      "outputModuleId": 430,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 672,
+      "outputModuleId": 430,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 674,
+      "outputModuleId": 431,
+      "outputId": 0,
+      "inputModuleId": 417,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 673,
+      "outputModuleId": 437,
+      "outputId": 2,
+      "inputModuleId": 435,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 669,
+      "outputModuleId": 433,
+      "outputId": 0,
+      "inputModuleId": 437,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 665,
+      "outputModuleId": 432,
+      "outputId": 0,
+      "inputModuleId": 431,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 667,
+      "outputModuleId": 428,
+      "outputId": 64,
+      "inputModuleId": 434,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 688,
+      "outputModuleId": 438,
+      "outputId": 1,
+      "inputModuleId": 444,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 689,
+      "outputModuleId": 438,
+      "outputId": 0,
+      "inputModuleId": 444,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 691,
+      "outputModuleId": 428,
+      "outputId": 64,
+      "inputModuleId": 431,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 686,
+      "outputModuleId": 416,
+      "outputId": 2,
+      "inputModuleId": 438,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 693,
+      "outputModuleId": 444,
+      "outputId": 0,
+      "inputModuleId": 417,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 696,
+      "outputModuleId": 418,
+      "outputId": 0,
+      "inputModuleId": 438,
+      "inputId": 3,
+      "color": "#0c8e15"
+    }
+  ]
+}
